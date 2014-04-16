@@ -720,7 +720,7 @@ economy:
     # if a resident can't pay his plot tax he loses his plot.
     # if a resident can't pay his town tax then he is kicked from the town.
     # if a town or nation fails to pay it's upkeep it is deleted.
-    enabled: 'true'
+    enabled: 'false'
     # Maximum tax amount allowed when using flat taxes
     max_tax_amount: '1000.0'
     # maximum tax percentage allowed when taxing by percentages
