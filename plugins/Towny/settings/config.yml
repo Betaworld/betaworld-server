@@ -728,15 +728,15 @@ economy:
     # if a town or nation fails to pay it's upkeep it is deleted.
     enabled: 'false'
     # Maximum tax amount allowed when using flat taxes
-    max_tax_amount: '1000.0'
+    max_tax_amount: '10000.0'
     # maximum tax percentage allowed when taxing by percentages
     max_tax_percent: '25'
     # The server's daily charge on each nation. If a nation fails to pay this upkeep
     # all of it's member town are kicked and the Nation is removed.
-    price_nation_upkeep: '100.0'
+    price_nation_upkeep: '0.0'
     # The server's daily charge on each town. If a town fails to pay this upkeep
     # all of it's residents are kicked and the town is removed.
-    price_town_upkeep: '10.0'
+    price_town_upkeep: '0.0'
     # Uses total amount of owned plots to determine upkeep instead of the town level (Number of residents)
     # calculated by (number of claimed plots X price_town_upkeep).
     town_plotbased_upkeep: 'false'
