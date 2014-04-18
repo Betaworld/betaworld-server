@@ -10,7 +10,7 @@
 groups:
   Visitor:
     default: true
-    permissions:
+    inheritance:
     - g:visitor
     info:
       prefix: '&bVisitor '
@@ -18,50 +18,45 @@ groups:
 
   Citizen:
     default: false
-    permissions:
-    - g:citizen
     inheritance:
-    - visitor
+    - Visitor
+    - g:citizen
     info:
       prefix: '&7'
       build: true
 
   Warden:
     default: false
-    permissions:
-    - g:warden
     inheritance:
-    - citizen
+    - Citizen
+    - g:warden
     info:
       prefix: '&aWarden '
       build: true
 
   ImmigrationDirector:
     default: false
-    permissions:
-    - g:immigration_director
     inheritance:
-    - citizen
+    - Citizen
+    - g:immigration_director
     info:
       prefix: '&aImmigration Director '
       build: true
   
   Judge:
     default: false
-    permissions:
-    - g:judge
     inheritance:
-    - citizen
+    - Citizen
+    - g:judge
     info:
       prefix: '&aJudge '
       build: true
 
   President:
     default: false
-    permissions:
-    - g:president
     inheritance:
-    - judge
+    - Judge
+    - g:president
     info:
       prefix: '&aPresident '
       build: true
