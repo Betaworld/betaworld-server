@@ -3,11 +3,11 @@
  
 version:
   # This is the current version of Towny.  Please do not edit.
-  version: 0.84.0.0
+  version: 0.84.0.7
   # This is for showing the changelog on updates.  Please do not edit.
-  last_run_version: 0.84.0.0
+  last_run_version: 0.84.0.7
   # Minimum required version of CraftBukkit.  Please do not edit.
-  bukkit_version: '2771'
+  bukkit_version: '2838'
  
 # The language file you wish to use
 language: english.yml
@@ -95,7 +95,6 @@ levels:
     townBlockLimit: 1
     namePrefix: ''
     numResidents: 0
-
   - upkeepModifier: 1.0
     namePostfix: ' (Settlement)'
     mayorPrefix: 'Hermit '
@@ -103,7 +102,6 @@ levels:
     townBlockLimit: 16
     namePrefix: ''
     numResidents: 1
-
   - upkeepModifier: 1.0
     namePostfix: ' (Settlement)'
     mayorPrefix: 'Leader '
@@ -111,7 +109,6 @@ levels:
     townBlockLimit: 64
     namePrefix: ''
     numResidents: 2
-
   - upkeepModifier: 1.0
     namePostfix: ' (Hamlet)'
     mayorPrefix: 'Lord '
@@ -119,7 +116,6 @@ levels:
     townBlockLimit: 92
     namePrefix: ''
     numResidents: 3
-
   - upkeepModifier: 1.0
     namePostfix: ' (Hamlet)'
     mayorPrefix: 'Lord '
@@ -127,7 +123,6 @@ levels:
     townBlockLimit: 112
     namePrefix: ''
     numResidents: 4
-
   - upkeepModifier: 1.0
     namePostfix: ' (Village)'
     mayorPrefix: 'Chief '
@@ -135,7 +130,6 @@ levels:
     townBlockLimit: 128
     namePrefix: ''
     numResidents: 5
-
   - upkeepModifier: 1.0
     namePostfix: ' (Village)'
     mayorPrefix: 'Chief '
@@ -143,7 +137,6 @@ levels:
     townBlockLimit: 141
     namePrefix: ''
     numResidents: 6
-
   - upkeepModifier: 1.0
     namePostfix: ' (Town)'
     mayorPrefix: 'Town Mayor '
@@ -151,7 +144,6 @@ levels:
     townBlockLimit: 151
     namePrefix: ''
     numResidents: 7
-
   - upkeepModifier: 1.0
     namePostfix: ' (Town)'
     mayorPrefix: 'Town Mayor '
@@ -159,7 +151,6 @@ levels:
     townBlockLimit: 160
     namePrefix: ''
     numResidents: 8
-
   - upkeepModifier: 1.0
     namePostfix: ' (City)'
     mayorPrefix: 'City Mayor '
@@ -167,7 +158,6 @@ levels:
     townBlockLimit: 169
     namePrefix: ''
     numResidents: 9
-
   - upkeepModifier: 1.0
     namePostfix: ' (City)'
     mayorPrefix: 'City Mayor '
@@ -175,7 +165,6 @@ levels:
     townBlockLimit: 176
     namePrefix: ''
     numResidents: 10
-
   - upkeepModifier: 1.0
     namePostfix: ' (Metropolis)'
     mayorPrefix: 'Metropolis Mayor '
@@ -183,7 +172,6 @@ levels:
     townBlockLimit: 183
     namePrefix: ''
     numResidents: 11
-
   - upkeepModifier: 1.0
     namePostfix: ' (Metropolis)'
     mayorPrefix: 'Metropolis Mayor '
@@ -191,7 +179,6 @@ levels:
     townBlockLimit: 189
     namePrefix: ''
     numResidents: 12
-
   - upkeepModifier: 1.0
     namePostfix: ' (Metropolis)'
     mayorPrefix: 'Metropolis Mayor '
@@ -199,7 +186,6 @@ levels:
     townBlockLimit: 194
     namePrefix: ''
     numResidents: 13
-
   - upkeepModifier: 1.0
     namePostfix: ' (Metropolis)'
     mayorPrefix: 'Metropolis Mayor '
@@ -207,7 +193,6 @@ levels:
     townBlockLimit: 199
     namePrefix: ''
     numResidents: 14
-
   - upkeepModifier: 1.0
     namePostfix: ' (Metropolis)'
     mayorPrefix: 'Metropolis Mayor '
@@ -217,17 +202,6 @@ levels:
     numResidents: 15
  
   # default Nation levels.
-  nation_level:
-  - capitalPostfix: ''
-    upkeepModifier: 1.0
-    namePostfix: ' (Abandoned Nation)'
-    kingPrefix: 'Self-Proclaimed President '
-    townBlockLimitBonus: 10
-    namePrefix: ''
-    numResidents: 0
-    capitalPrefix: ''
-    kingPostfix: ''
-    
   nation_level:
   - capitalPostfix: ''
     upkeepModifier: 1.0
@@ -330,7 +304,7 @@ new_world_settings:
       unclaim_delete: 26,50,55,63,64,68,70,71,72,75,76,93,94
  
     mayor_plotblock_delete:
-      enabled: 'NONE'
+      enabled: NONE
       # These items will be deleted upon a mayor using /plot clear
       # To disable deleting replace the current entries with NONE.
       mayor_plot_delete: WALL_SIGN,SIGN_POST
@@ -722,6 +696,8 @@ economy:
     price_claim_townblock: '0.0'
     # How much it costs a player to buy extra blocks.
     price_purchased_bonus_townblock: '50.0'
+    # How much every extra bonus block costs more. Set to 1 to deactivate this. 1.2 means +20% to every bonus claim block cost.
+    price_purchased_bonus_townblock_increase: '1.0'
  
   price_death: '0.0'
  

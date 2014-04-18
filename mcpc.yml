@@ -75,26 +75,26 @@ world-settings:
   default:
     infinite-water-source: true
     flowing-lava-decay: false
-    worldgen-wildcaves3-WorldGenWildCaves: true
-    worldgen-ATG-ATGWorldGenHighAltitudePockets: true
-    worldgen-CalclaviaCore-OreGenerator: true
-    worldgen-ExtrabiomesXL-QuicksandGenerator: true
-    worldgen-ExtrabiomesXL-CatTailGenerator: true
-    worldgen-ExtrabiomesXL-EelGrassGenerator: true
-    worldgen-GalacticraftCore-GCCoreOverworldGenerator: true
-    worldgen-TConstruct-SlimeIslandGen: true
-    worldgen-ExtrabiomesXL-LeafPileGenerator: true
-    worldgen-arsmagica2-AM2WorldDecorator: true
-    worldgen-ExtrabiomesXL-OilGenerator: true
-    worldgen-TConstruct-TBaseWorldGenerator: true
-    worldgen-ATG-ATGWorldGenRocks: true
-    worldgen-wildcaves3-EventManager: true
-    worldgen-ExtrabiomesXL-FlowerGenerator: true
-    worldgen-ExtrabiomesXL-LegendOakGenerator: true
-    worldgen-ATG-ATGWorldGenCliffs: true
-    worldgen-ExtrabiomesXL-VanillaFloraGenerator: true
-    worldgen-ExtrabiomesXL-VineGenerator: true
     despawn-immediate: true
+    worldgen-GalacticraftCore-GCCoreOverworldGenerator: true
+    worldgen-CalclaviaCore-OreGenerator: true
+    worldgen-ExtrabiomesXL-VineGenerator: true
+    worldgen-ExtrabiomesXL-EelGrassGenerator: true
+    worldgen-ExtrabiomesXL-QuicksandGenerator: true
+    worldgen-ExtrabiomesXL-OilGenerator: true
+    worldgen-ExtrabiomesXL-FlowerGenerator: true
+    worldgen-wildcaves3-EventManager: true
+    worldgen-ExtrabiomesXL-VanillaFloraGenerator: true
+    worldgen-ExtrabiomesXL-CatTailGenerator: true
+    worldgen-TConstruct-TBaseWorldGenerator: true
+    worldgen-ExtrabiomesXL-LeafPileGenerator: true
+    worldgen-ATG-ATGWorldGenHighAltitudePockets: true
+    worldgen-ExtrabiomesXL-LegendOakGenerator: true
+    worldgen-TConstruct-SlimeIslandGen: true
+    worldgen-arsmagica2-AM2WorldDecorator: true
+    worldgen-ATG-ATGWorldGenRocks: true
+    worldgen-ATG-ATGWorldGenCliffs: true
+    worldgen-wildcaves3-WorldGenWildCaves: true
     worldgen-Thaumcraft-ThaumcraftWorldGenerator: true
     worldgen-millenaire-WorldGenVillage: true
     worldgen-ExtrabiomesXL-MountainRidgeGenerator: true
@@ -137,6 +137,7 @@ config-version: 1
 tick-intervals:
   am2-proxy-tick-ServerTickHandler: 1
   universalelectricity-core-net-NetworkTickHandler: 1
+  drzhark-customspawner-handlers-SpawnTickHandler: 1
   buildcraft-core-TickHandlerCoreClient: 1
   micdoodle8-mods-galacticraft-core-tick-GCCoreTickHandlerServer: 1
   WayofTime-alchemicalWizardry-AlchemicalWizardryTickHandler: 1
