@@ -1,59 +1,15 @@
 groups:
-  g:visitor:
+  g:president:
     permissions:
-    - essentials.afk
-    - essentials.book
-    - essentials.compass
-    - essentials.depth
-    - essentials.getpos
-    - essentials.help
-    - essentials.helpop
-    - essentials.itemdb
-    - essentials.list
-    - essentials.motd
-    - essentials.near
-    - essentials.r
-    - essentials.realname
-    - essentials.recipe
-    - essentials.rules
-    - essentials.seen
-    - essentials.suicide
+    - dynmap.*
+    - essentials.killall
+    - essentials.reload
+    - essentials.setspawn
     - essentials.time
-    - essentials.kick.notify
-    - essentials.ban.notify
-    - essentials.exp
-    - essentials.ping
-    - essentials.afk
-    - essentials.chat.color
-    - essentials.chat.format
-    - essentials.chat.magic
-    - essentials.chat.question
-    - essentials.chat.shout
-    - essentials.chat.url
-    - essentials.ignore
-    - essentials.me
-    - essentials.msg
-    - essentials.msg.color
-    - essentials.msg.format
-    - essentials.nick
-    - essentials.tpaccept
-    - essentials.tpdeny
-    - essentials.warp
-    - essentials.warps
-
-  g:citizen:
-    permissions:
-    - essentials.mail
-    - essentials.mail.send
-    - shop.use
-    - shop.create
-    - shop.destroy
-    - serverlaws.bypass
-    - essentials.balance
-    - essentials.pay
-    - -essentials.warp
-    - -essentials.warps
-
+    - essentials.time.*
+    - groupmanager.*
+    - prism.*
+    - towny.admin
   g:warden:
     permissions:
     - jail.command.jailcreate
@@ -65,52 +21,108 @@ groups:
     - jail.command.jailcheck
     - jail.command.jaillist
     - jail.command.jaillistcells
-
+  g:visitor:
+    permissions:
+    - essentials.afk
+    - essentials.ban.notify
+    - essentials.book
+    - essentials.chat.color
+    - essentials.chat.format
+    - essentials.chat.magic
+    - essentials.chat.question
+    - essentials.chat.shout
+    - essentials.chat.url
+    - essentials.compass
+    - essentials.depth
+    - essentials.exp
+    - essentials.getpos
+    - essentials.help
+    - essentials.helpop
+    - essentials.ignore
+    - essentials.itemdb
+    - essentials.kick.notify
+    - essentials.list
+    - essentials.me
+    - essentials.motd
+    - essentials.msg
+    - essentials.msg.color
+    - essentials.msg.format
+    - essentials.near
+    - essentials.nick
+    - essentials.ping
+    - essentials.r
+    - essentials.realname
+    - essentials.recipe
+    - essentials.rules
+    - essentials.seen
+    - essentials.suicide
+    - essentials.time
+    - essentials.tpaccept
+    - essentials.tpdeny
+    - essentials.warp
+    - essentials.warps
   g:immigration_director:
     permissions:
     - essentials.addwarp
     - essentials.delwarp
     - essentials.setwarp
-  
+  g:citizen:
+    permissions:
+    - -essentials.warp
+    - -essentials.warps
+    - essentials.balance
+    - essentials.mail
+    - essentials.mail.send
+    - essentials.pay
+    - serverlaws.bypass
+    - shop.create
+    - shop.destroy
+    - shop.use
+    - towny.command.nation.*
+    - towny.command.townyadmin.nation.*
+    - towny.command.townyadmin.town.*
+    - towny.nation.*
+    - towny.town.*
+    - towny.wild.*
   g:judge:
     permissions:
-    - rateofxray.admin
-    - rateofxray.nolog
     - essentials.back
-    - essentials.top
-    - essentials.tp
-    - essentials.tpa
-    - essentials.tpahere
-    - essentials.tpo
-    - essentials.tpohere
-    - essentials.tphere
-    - essentials.tppos
-    - essentials.spawn
-    - essentials.jump
-    - essentials.world
+    - essentials.broadcast
+    - essentials.ext
     - essentials.fly
+    - essentials.getpos.others
     - essentials.god
-    - essentials.helpop.recieve 
+    - essentials.helpop.recieve
     - essentials.home
     - essentials.home.others
-    - essentials.ext    
-    - essentials.getpos.others
-    - essentials.invsee    
+    - essentials.invsee
+    - essentials.jump
     - essentials.mute
     - essentials.ptime
     - essentials.ptime.others
     - essentials.seen.banreason
     - essentials.seen.extra
+    - essentials.spawn
     - essentials.time
+    - essentials.top
+    - essentials.tp
+    - essentials.tpa
+    - essentials.tpahere
+    - essentials.tphere
+    - essentials.tpo
+    - essentials.tpohere
+    - essentials.tppos
     - essentials.vanish
     - essentials.whois
     - essentials.workbench
-    - essentials.broadcast
+    - essentials.world
+    - jail.command.handcuff
     - jail.command.jail
-    - jail.command.unjail
     - jail.command.jailclear
     - jail.command.jailmute
-    - jail.command.handcuff
+    - jail.command.unjail
+    - rateofxray.admin
+    - rateofxray.nolog
     - vanish.hooks.essentials.hide
     - vanish.nofollow
     - vanish.nopickup
@@ -119,9 +131,3 @@ groups:
     - vanish.silentjoin
     - vanish.silentquit
     - vanish.vanish
-
-  g:president:
-    permissions:
-    - dynmap.*
-    - groupmanager.*
-    - essentials.setspawn

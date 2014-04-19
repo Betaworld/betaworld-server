@@ -1,8 +1,8 @@
 spawns: 
   default: 
-    world: BetaworldRC2
-    x: 311.0204194073921
+    world: BetaworldModpack
+    x: 0.5005261547048576
     y: 64.0
-    z: 323.9734332864911
-    yaw: 298.94794
-    pitch: 5.8499637
+    z: 0.07712513582188896
+    yaw: -269.69974
+    pitch: -7.800005
