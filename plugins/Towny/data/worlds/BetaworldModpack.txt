@@ -29,7 +29,7 @@ usingPlotManagementDelete=false
 plotManagementDeleteIds=26,50,55,63,64,68,70,71,72,75,76,93,94
 
 # The following settings control what blocks are deleted upon a mayor issuing a '/plot clear' command
-usingPlotManagementMayorDelete=true
+usingPlotManagementMayorDelete=false
 plotManagementMayorDelete=NONE
 
 # If enabled when a town claims a townblock a snapshot will be taken at the time it is claimed.
