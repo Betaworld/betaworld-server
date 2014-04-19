@@ -90,49 +90,49 @@ levels:
   town_level:
   - upkeepModifier: 1.0
     namePostfix: ' (Abandoned)'
-    mayorPrefix: 'Spirit '
+    mayorPrefix: ''
     mayorPostfix: ''
     townBlockLimit: 1
     namePrefix: ''
     numResidents: 0
   - upkeepModifier: 1.0
     namePostfix: ' (Settlement)'
-    mayorPrefix: 'Hermit '
+    mayorPrefix: ''
     mayorPostfix: ''
     townBlockLimit: 16
     namePrefix: ''
     numResidents: 1
   - upkeepModifier: 1.0
     namePostfix: ' (Settlement)'
-    mayorPrefix: 'Leader '
+    mayorPrefix: ''
     mayorPostfix: ''
     townBlockLimit: 64
     namePrefix: ''
     numResidents: 2
   - upkeepModifier: 1.0
     namePostfix: ' (Hamlet)'
-    mayorPrefix: 'Lord '
+    mayorPrefix: ''
     mayorPostfix: ''
     townBlockLimit: 92
     namePrefix: ''
     numResidents: 3
   - upkeepModifier: 1.0
     namePostfix: ' (Hamlet)'
-    mayorPrefix: 'Lord '
+    mayorPrefix: ''
     mayorPostfix: ''
     townBlockLimit: 112
     namePrefix: ''
     numResidents: 4
   - upkeepModifier: 1.0
     namePostfix: ' (Village)'
-    mayorPrefix: 'Chief '
+    mayorPrefix: ''
     mayorPostfix: ''
     townBlockLimit: 128
     namePrefix: ''
     numResidents: 5
   - upkeepModifier: 1.0
     namePostfix: ' (Village)'
-    mayorPrefix: 'Chief '
+    mayorPrefix: ''
     mayorPostfix: ''
     townBlockLimit: 141
     namePrefix: ''
@@ -146,56 +146,56 @@ levels:
     numResidents: 7
   - upkeepModifier: 1.0
     namePostfix: ' (Town)'
-    mayorPrefix: 'Town Mayor '
+    mayorPrefix: ''
     mayorPostfix: ''
     townBlockLimit: 160
     namePrefix: ''
     numResidents: 8
   - upkeepModifier: 1.0
     namePostfix: ' (City)'
-    mayorPrefix: 'City Mayor '
+    mayorPrefix: ''
     mayorPostfix: ''
     townBlockLimit: 169
     namePrefix: ''
     numResidents: 9
   - upkeepModifier: 1.0
     namePostfix: ' (City)'
-    mayorPrefix: 'City Mayor '
+    mayorPrefix: ''
     mayorPostfix: ''
     townBlockLimit: 176
     namePrefix: ''
     numResidents: 10
   - upkeepModifier: 1.0
     namePostfix: ' (Metropolis)'
-    mayorPrefix: 'Metropolis Mayor '
+    mayorPrefix: ''
     mayorPostfix: ''
     townBlockLimit: 183
     namePrefix: ''
     numResidents: 11
   - upkeepModifier: 1.0
     namePostfix: ' (Metropolis)'
-    mayorPrefix: 'Metropolis Mayor '
+    mayorPrefix: ''
     mayorPostfix: ''
     townBlockLimit: 189
     namePrefix: ''
     numResidents: 12
   - upkeepModifier: 1.0
     namePostfix: ' (Metropolis)'
-    mayorPrefix: 'Metropolis Mayor '
+    mayorPrefix: ''
     mayorPostfix: ''
     townBlockLimit: 194
     namePrefix: ''
     numResidents: 13
   - upkeepModifier: 1.0
     namePostfix: ' (Metropolis)'
-    mayorPrefix: 'Metropolis Mayor '
+    mayorPrefix: ''
     mayorPostfix: ''
     townBlockLimit: 199
     namePrefix: ''
     numResidents: 14
   - upkeepModifier: 1.0
     namePostfix: ' (Metropolis)'
-    mayorPrefix: 'Metropolis Mayor '
+    mayorPrefix: ''
     mayorPostfix: ''
     townBlockLimit: 204
     namePrefix: ''
@@ -206,7 +206,7 @@ levels:
   - capitalPostfix: ''
     upkeepModifier: 1.0
     namePostfix: ' (Nation)'
-    kingPrefix: 'President '
+    kingPrefix: ''
     townBlockLimitBonus: 10
     namePrefix: ''
     numResidents: 1
@@ -274,19 +274,19 @@ new_world_settings:
     # world_monsters_on is a global flag setting per world.
     world_monsters_on: 'true'
     # force_town_monsters_on is a global flag and overrides any towns flag setting
-    force_town_monsters_on: 'true'
+    force_town_monsters_on: 'false'
  
   explosions:
     # Allow explosions in this world
     world_explosions_enabled: 'true'
     # force_explosions_on is a global flag and overrides any towns flag setting
-    force_explosions_on: 'true'
+    force_explosions_on: 'false'
  
   fire:
     # Allow fire to be lit and spread in this world.
     world_firespread_enabled: 'true'
     # force_fire_on is a global flag and overrides any towns flag setting
-    force_fire_on: 'true'
+    force_fire_on: 'false'
  
   # Prevent Endermen from picking up and placing blocks.
   enderman_protect: 'true'
@@ -301,13 +301,13 @@ new_world_settings:
     block_delete:
       enabled: 'false'
       # These items will be deleted upon a plot being unclaimed
-      unclaim_delete: 26,50,55,63,64,68,70,71,72,75,76,93,94
+      unclaim_delete: 
  
     mayor_plotblock_delete:
       enabled: NONE
       # These items will be deleted upon a mayor using /plot clear
       # To disable deleting replace the current entries with NONE.
-      mayor_plot_delete: WALL_SIGN,SIGN_POST
+      mayor_plot_delete: NONE
  
     revert_on_unclaim:
       # *** WARNING***
