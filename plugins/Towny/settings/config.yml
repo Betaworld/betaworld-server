@@ -301,7 +301,7 @@ new_world_settings:
     block_delete:
       enabled: 'false'
       # These items will be deleted upon a plot being unclaimed
-      unclaim_delete: 
+      unclaim_delete: 26,50,55,63,64,68,70,71,72,75,76,93,94
  
     mayor_plotblock_delete:
       enabled: NONE
