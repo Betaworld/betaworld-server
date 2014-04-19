@@ -2,6 +2,7 @@ groups:
   g:president:
     permissions:
     - dynmap.*
+    - essentials.*
     - essentials.killall
     - essentials.reload
     - essentials.setspawn

@@ -19,13 +19,13 @@ commands:
 settings:
   log-filters:
   - ^(.*)(/login)(.*)$
-  timeout-time: 60
-  restart-on-crash: true
-  restart-script: ./start.sh
   prevent-proxies: false
   bungeecord-addresses:
   - 127.0.0.1
   bungeecord: true
+  timeout-time: 60
+  restart-on-crash: true
+  restart-script: ./start.sh
   netty-threads: 3
 listeners:
 - port: default
@@ -40,13 +40,6 @@ messages:
 world-settings:
   default:
     verbose: false
-    mob-spawn-range: 4
-    entity-tracking-range:
-      players: 48
-      animals: 48
-      monsters: 48
-      misc: 32
-      other: 64
     anti-xray:
       engine-mode: 1
       blocks:
@@ -82,6 +75,13 @@ world-settings:
       hopper-check: 8
     random-light-updates: false
     save-mineshaft-structure-info: false
+    mob-spawn-range: 4
+    entity-tracking-range:
+      players: 48
+      animals: 48
+      monsters: 48
+      misc: 32
+      other: 64
     view-distance: 10
     chunks-per-tick: 650
     merge-radius:
