@@ -26,3 +26,6 @@ plugins/Towny/data/townblocks
 plugins/Towny/data/towns
 plugins/Towny/data/towns.txt
 plugins/Towny/data/worlds.txt
+dynmap/web/tiles/*
+dynmap/web/tiles/_markers_/*
+dynmap/*.pending

@@ -11,6 +11,11 @@
 # Forums: http://www.spigotmc.org/forum/
 
 config-version: 3
+commands:
+  spam-exclusions:
+  - /skill
+  log: true
+  tab-complete: true
 settings:
   log-filters:
   - ^(.*)(/login)(.*)$
@@ -22,11 +27,6 @@ settings:
   restart-on-crash: true
   restart-script: ./start.sh
   netty-threads: 3
-commands:
-  spam-exclusions:
-  - /skill
-  log: true
-  tab-complete: true
 listeners:
 - port: default
   host: default
@@ -40,14 +40,6 @@ messages:
 world-settings:
   default:
     verbose: false
-    growth:
-      cactus-modifier: 100
-      cane-modifier: 100
-      melon-modifier: 100
-      mushroom-modifier: 100
-      pumpkin-modifier: 100
-      sapling-modifier: 100
-      wheat-modifier: 100
     anti-xray:
       engine-mode: 1
       blocks:
@@ -66,6 +58,14 @@ world-settings:
       - 82
       - 129
       - 130
+    growth:
+      cactus-modifier: 100
+      cane-modifier: 100
+      melon-modifier: 100
+      mushroom-modifier: 100
+      pumpkin-modifier: 100
+      sapling-modifier: 100
+      wheat-modifier: 100
     entity-activation-range:
       animals: 32
       monsters: 32

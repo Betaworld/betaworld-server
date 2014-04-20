@@ -1,4 +1,10 @@
 worlds:
+-   title: Betaworld
+    height: 256
+    the_end: false
+    sealevel: 64
+    name: BetaworldModpack
+    nether: false
 -   title: DIM-17/Wyvern Lair
     height: 256
     the_end: false
@@ -23,12 +29,6 @@ worlds:
     sealevel: 64
     name: DIM-1
     nether: true
--   title: BetaworldModpack/Overworld
-    height: 256
-    the_end: false
-    sealevel: 64
-    name: BetaworldModpack
-    nether: false
 isMCPC: true
 useSaveFolderAsName: true
 maxWorldHeight: 256
