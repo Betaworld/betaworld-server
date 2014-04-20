@@ -363,7 +363,7 @@ tools {
     B:"Change Ghast drops to Gold Ingots"=false
     B:"Necrotic modifier only heals on hostile mob kills"=false
     B:"Passive Health Regen"=true
-    B:"Players drop heads on death"=false
+    B:"Players drop heads on death"=true
     I:"World Border Radius"=1000
 }
 
@@ -403,7 +403,7 @@ worldgen {
     I:"Iron Surface Rarity"=400
     I:"Nether Ores Density"=8
     I:"Silver Bush Density"=1
-    I:"Slime Island Rarity"=1450
+    I:"Slime Island Rarity"=3000
     I:"Tin Bush Density"=2
     I:"Tin Bush Max Y"=40
     I:"Tin Bush Min Y"=0
