@@ -139,13 +139,13 @@ tick-intervals:
   universalelectricity-core-net-NetworkTickHandler: 1
   drzhark-customspawner-handlers-SpawnTickHandler: 1
   buildcraft-core-TickHandlerCoreClient: 1
+  org-dynmap-forge-DynmapPlugin$ForgeServer: 1
   micdoodle8-mods-galacticraft-core-tick-GCCoreTickHandlerServer: 1
   WayofTime-alchemicalWizardry-AlchemicalWizardryTickHandler: 1
   thaumcraft-common-lib-WorldTicker: 1
   drzhark-mocreatures-MoCServerTickHandler: 1
   mekanism-api-transmitters-TransmitterNetworkRegistry: 1
   org-millenaire-common-forge-ServerTickHandler: 1
-  org-dynmap-forge-DynmapPlugin$ForgeServer: 1
   cpw-mods-fml-common-modloader-BaseModTicker: 1
 world-environment-settings:
   normal:

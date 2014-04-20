@@ -40,6 +40,14 @@ messages:
 world-settings:
   default:
     verbose: false
+    growth:
+      cactus-modifier: 100
+      cane-modifier: 100
+      melon-modifier: 100
+      mushroom-modifier: 100
+      pumpkin-modifier: 100
+      sapling-modifier: 100
+      wheat-modifier: 100
     anti-xray:
       engine-mode: 1
       blocks:
@@ -58,14 +66,6 @@ world-settings:
       - 82
       - 129
       - 130
-    growth:
-      cactus-modifier: 100
-      cane-modifier: 100
-      melon-modifier: 100
-      mushroom-modifier: 100
-      pumpkin-modifier: 100
-      sapling-modifier: 100
-      wheat-modifier: 100
     entity-activation-range:
       animals: 32
       monsters: 32
@@ -82,8 +82,8 @@ world-settings:
       monsters: 48
       misc: 32
       other: 64
-    chunks-per-tick: 650
     view-distance: 10
+    chunks-per-tick: 650
     merge-radius:
       exp: 3.0
       item: 2.5
