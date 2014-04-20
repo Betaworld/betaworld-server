@@ -22,12 +22,12 @@ components:
     sendhealth: true
     sendposition: true
     allowwebchat: true
-    webchat-interval: 5
-    hidewebchatip: false
+    webchat-interval: 0
+    hidewebchatip: true
     trustclientname: false
     includehiddenplayers: false
     # (optional) if true, color codes in player display names are used
-    use-name-colors: false
+    use-name-colors: true
     # (optional) if true, player login IDs will be used for web chat when their IPs match
     use-player-login-ip: true
     # (optional) if use-player-login-ip is true, setting this to true will cause chat messages not matching a known player IP to be ignored
@@ -126,7 +126,7 @@ components:
     showplayerfaces: true
     showplayerhealth: true
     # If true, show player body too (only valid if showplayerfaces=true
-    showplayerbody: false
+    showplayerbody: true
     # Option to make player faces small - don't use with showplayerhealth
     smallplayerfaces: false
     # Optional - make player faces layer hidden by default
@@ -134,7 +134,7 @@ components:
     # Optional - ordering priority in layer menu (low goes before high - default is 0)
     layerprio: 0
     # Optional - label for player marker layer (default is 'Players')
-    label: "Players"
+    label: "Citizens"
     
   #- class: org.dynmap.ClientComponent
   #  type: digitalclock
@@ -284,7 +284,7 @@ webpath: web
 #webserver-bindaddress: 0.0.0.0
 
 # The TCP-port the webserver will listen on.
-webserver-port: 8123
+webserver-port: 8124
 
 # Maximum concurrent session on internal web server - limits resources used in Bukkit server
 max-sessions: 30
@@ -362,7 +362,7 @@ check-banned-ips: true
 
 # Default selection when map page is loaded
 defaultzoom: 0
-defaultworld: world
+defaultworld: BetaworldModpack
 defaultmap: flat
 # (optional) Zoom level and map to switch to when following a player, if possible
 #followzoom: 3

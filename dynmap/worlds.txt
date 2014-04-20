@@ -9,8 +9,8 @@ worlds:
   # Worlds can be handled by templates, based on world type
   # You can override the properties of the template by specifying them in this section
   #    for example 'Title: "My Awesome World"'
-  #- name: world
-  #  title: "World"
+  - name: BetaworldModpack
+    title: "Betaworld"
   #   Use 'enabled: false' to disable a certain world.
   #  enabled: false
   #   Use sendposition: false to prevent player positions from showing when on this world (if sendposition is globally enabled)
@@ -50,15 +50,15 @@ worlds:
   #  # Use hidestyle to control how hidden-but-existing chunks are to be rendered (air=empty air (same as ungenerated), stone=a flat stone plain, ocean=a flat ocean)
   #  hidestyle: stone
   #   Use 'template: mycustomtemplate' to use the properties specified in the template 'mycustomtemplate' to this world. Default it is set to the environment-name (normal or nether).
-  #  template: mycustomtemplate
+    template: normal-hi_boost_xhi
   #   Rest of comes from template - uncomment to tailor for world specifically
   #  # World center - default is spawn point
-  #  center:
-  #    x: 0
-  #    y: 64
-  #    z: 0
+    center:
+      x: 0
+      y: 64
+      z: 0
   #  # If bigworld set to true, use alternate directory layout better suited to large worlds
-  #  bigworld: true
+    bigworld: true
   #  # Number of extra zoom-out levels for world (each level is twice as big as the previous one)
   #  extrazoomout: 3
   #  # Default delay on processing of updated tiles, in seconds.  This can reduce potentially expensive re-rendering
