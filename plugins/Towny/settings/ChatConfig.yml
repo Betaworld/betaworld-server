@@ -48,30 +48,27 @@
   # If using our updated HeroicDeath.jar and craftIRC 3.1 (dev), you can
   #configure what IRC channels you want death messages relayed to.
   HeroicDeathToIRC:
-    enabled: false
+    enabled: true
     # comma delimited list of craftIRC channel tags 'admin,blah,blah'.
     craftIRCTags: 'admin'
 
   channel_formats:
     # This is the format which will be used for GLOBAL chat/channels.
     # This is also the format used when you have modify_chat.enable: true, but use other plugins to handle chat.
-    # 
-    # [g][Nation|Town][Leader] President DefMethod
-    # 
-    global: '{channelTag}{townytagoverride}%f[{townyprefix}]{townycolor}{modplayername}&f:{msgcolour} {msg}'
+    global: '{channelTag} {worldname}{townytagoverride}{townycolor}{permprefix}{group} {townyprefix}{modplayername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
     # TOWN channel types.
-    town: '{channelTag}{townytagoverride}%f[{townyprefix}]{townycolor}{modplayername}&f:{msgcolour} {msg}'
+    town: '{channelTag} {townycolor}{permprefix}{townyprefix}{playername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
     # NATION channel types.
-    nation: '{channelTag}{townytagoverride}%f[{townyprefix}]{townycolor}{modplayername}&f:{msgcolour} {msg}'
+    nation: '{channelTag}{towntagoverride}{townycolor}{permprefix}{townyprefix}{playername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
     # DEFAULT channel types.
-    default: '{channelTag}{townytagoverride}%f[{townyprefix}]{townycolor}{modplayername}&f:{msgcolour} {msg}'
+    default: '{channelTag} {permprefix}{playername}{permsuffix}&f:{msgcolour} {msg}'
     
   tag_formats:
-    world: '&f[&f%s&f]'
-    town: '&f[&3%s&f]'
-    nation: '&f[&e%s&f]'
-    # First %s is the nation tag, second is the town tag.
-    both: '&f[&6%s&f|&3%s&f]'
+      world: '&f[&f%s&f] '
+      town: '&f[&3%s&f] '
+      nation: '&f[&e%s&f] '
+      # First %s is the nation tag, second is the town tag.
+      both: '&f[&6%s&f|&3%s&f] '
       
     # Chat colours
   colour:
