@@ -287,7 +287,7 @@ webpath: web
 webserver-port: 8124
 
 # Maximum concurrent session on internal web server - limits resources used in Bukkit server
-max-sessions: 30
+max-sessions: 100
 
 # Disables Webserver portion of Dynmap (Advanced users only)
 disable-webserver: false

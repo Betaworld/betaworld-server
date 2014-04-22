@@ -8,7 +8,7 @@ usePermissions: false
 # You must have Vault installed to do this #
 
 Economy:
-   useVault: false
+   useVault: true
    itemId: 388
-   name: Emeralds
+   name: β
    amountToStart: 0
