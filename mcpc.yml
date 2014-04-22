@@ -75,26 +75,26 @@ world-settings:
   default:
     infinite-water-source: true
     flowing-lava-decay: false
-    worldgen-GalacticraftCore-GCCoreOverworldGenerator: true
-    worldgen-wildcaves3-WorldGenWildCaves: true
-    worldgen-ExtrabiomesXL-QuicksandGenerator: true
-    worldgen-ATG-ATGWorldGenCliffs: true
-    worldgen-CalclaviaCore-OreGenerator: true
-    worldgen-ExtrabiomesXL-LeafPileGenerator: true
-    worldgen-ExtrabiomesXL-FlowerGenerator: true
-    worldgen-ATG-ATGWorldGenRocks: true
-    worldgen-ExtrabiomesXL-VanillaFloraGenerator: true
-    worldgen-wildcaves3-EventManager: true
-    worldgen-ATG-ATGWorldGenHighAltitudePockets: true
-    worldgen-TConstruct-SlimeIslandGen: true
-    worldgen-ExtrabiomesXL-CatTailGenerator: true
-    worldgen-ExtrabiomesXL-VineGenerator: true
-    worldgen-arsmagica2-AM2WorldDecorator: true
-    worldgen-ExtrabiomesXL-OilGenerator: true
-    worldgen-ExtrabiomesXL-EelGrassGenerator: true
-    worldgen-TConstruct-TBaseWorldGenerator: true
-    worldgen-ExtrabiomesXL-LegendOakGenerator: true
     despawn-immediate: true
+    worldgen-GalacticraftCore-GCCoreOverworldGenerator: true
+    worldgen-TConstruct-SlimeIslandGen: true
+    worldgen-ExtrabiomesXL-LegendOakGenerator: true
+    worldgen-ExtrabiomesXL-CatTailGenerator: true
+    worldgen-ExtrabiomesXL-EelGrassGenerator: true
+    worldgen-ExtrabiomesXL-QuicksandGenerator: true
+    worldgen-CalclaviaCore-OreGenerator: true
+    worldgen-TConstruct-TBaseWorldGenerator: true
+    worldgen-ATG-ATGWorldGenRocks: true
+    worldgen-ATG-ATGWorldGenHighAltitudePockets: true
+    worldgen-arsmagica2-AM2WorldDecorator: true
+    worldgen-ExtrabiomesXL-VineGenerator: true
+    worldgen-ExtrabiomesXL-OilGenerator: true
+    worldgen-wildcaves3-WorldGenWildCaves: true
+    worldgen-ATG-ATGWorldGenCliffs: true
+    worldgen-ExtrabiomesXL-LeafPileGenerator: true
+    worldgen-wildcaves3-EventManager: true
+    worldgen-ExtrabiomesXL-FlowerGenerator: true
+    worldgen-ExtrabiomesXL-VanillaFloraGenerator: true
     worldgen-Thaumcraft-ThaumcraftWorldGenerator: true
     worldgen-millenaire-WorldGenVillage: true
     worldgen-ExtrabiomesXL-MountainRidgeGenerator: true
