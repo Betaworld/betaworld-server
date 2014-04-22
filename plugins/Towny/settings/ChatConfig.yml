@@ -58,13 +58,13 @@
     # 
     # [g][Nation|Town][Leader] President DefMethod
     # 
-    global: '{channelTag}{townytagoverride}%f[{title}]{townycolor}{permprefix}{modplayername}&f:{msgcolour} {msg}'
+    global: '{channelTag}{townytagoverride}%f[{title}]{townycolor}{modplayername}&f:{msgcolour} {msg}'
     # TOWN channel types.
-    town: '{channelTag}{townytagoverride}%f[{title}]{townycolor}{permprefix}{modplayername}&f:{msgcolour} {msg}'
+    town: '{channelTag}{townytagoverride}%f[{title}]{townycolor}{modplayername}&f:{msgcolour} {msg}'
     # NATION channel types.
-    nation: '{channelTag}{townytagoverride}%f[{title}]{townycolor}{permprefix}{modplayername}&f:{msgcolour} {msg}'
+    nation: '{channelTag}{townytagoverride}%f[{title}]{townycolor}{modplayername}&f:{msgcolour} {msg}'
     # DEFAULT channel types.
-    default: '{channelTag}{townytagoverride}%f[{title}]{townycolor}{permprefix}{modplayername}&f:{msgcolour} {msg}'
+    default: '{channelTag}{townytagoverride}%f[{title}]{townycolor}{modplayername}&f:{msgcolour} {msg}'
     
   tag_formats:
     world: '&f[&f%s&f]'
