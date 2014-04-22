@@ -67,11 +67,11 @@
     default: '{channelTag}{townytagoverride}%f[{title}]{townycolor}{permprefix}{modplayername}&f:{msgcolour} {msg}'
     
   tag_formats:
-      world: '&f[&f%s&f]'
-      town: '&f[&3%s&f]'
-      nation: '&f[&e%s&f]'
-      # First %s is the nation tag, second is the town tag.
-      both: '&f[&6%s&f|&3%s&f]'
+    world: '&f[&f%s&f]'
+    town: '&f[&3%s&f]'
+    nation: '&f[&e%s&f]'
+    # First %s is the nation tag, second is the town tag.
+    both: '&f[&6%s&f|&3%s&f]'
       
     # Chat colours
   colour:
