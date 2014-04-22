@@ -97,105 +97,105 @@ levels:
     numResidents: 0
   - upkeepModifier: 1.0
     namePostfix: ' (Settlement)'
-    mayorPrefix: ''
+    mayorPrefix: 'Hermit'
     mayorPostfix: ''
     townBlockLimit: 16
     namePrefix: ''
     numResidents: 1
   - upkeepModifier: 1.0
     namePostfix: ' (Settlement)'
-    mayorPrefix: ''
+    mayorPrefix: 'Mayor'
     mayorPostfix: ''
     townBlockLimit: 64
     namePrefix: ''
     numResidents: 2
   - upkeepModifier: 1.0
     namePostfix: ' (Hamlet)'
-    mayorPrefix: ''
+    mayorPrefix: 'Mayor'
     mayorPostfix: ''
     townBlockLimit: 92
     namePrefix: ''
     numResidents: 3
   - upkeepModifier: 1.0
     namePostfix: ' (Hamlet)'
-    mayorPrefix: ''
+    mayorPrefix: 'Mayor'
     mayorPostfix: ''
     townBlockLimit: 112
     namePrefix: ''
     numResidents: 4
   - upkeepModifier: 1.0
     namePostfix: ' (Village)'
-    mayorPrefix: ''
+    mayorPrefix: 'Mayor'
     mayorPostfix: ''
     townBlockLimit: 128
     namePrefix: ''
     numResidents: 5
   - upkeepModifier: 1.0
     namePostfix: ' (Village)'
-    mayorPrefix: ''
+    mayorPrefix: 'Mayor'
     mayorPostfix: ''
     townBlockLimit: 141
     namePrefix: ''
     numResidents: 6
   - upkeepModifier: 1.0
     namePostfix: ' (Town)'
-    mayorPrefix: 'Town Mayor '
+    mayorPrefix: 'Mayor'
     mayorPostfix: ''
     townBlockLimit: 151
     namePrefix: ''
     numResidents: 7
   - upkeepModifier: 1.0
     namePostfix: ' (Town)'
-    mayorPrefix: ''
+    mayorPrefix: 'Mayor'
     mayorPostfix: ''
     townBlockLimit: 160
     namePrefix: ''
     numResidents: 8
   - upkeepModifier: 1.0
     namePostfix: ' (City)'
-    mayorPrefix: ''
+    mayorPrefix: 'Mayor'
     mayorPostfix: ''
     townBlockLimit: 169
     namePrefix: ''
     numResidents: 9
   - upkeepModifier: 1.0
     namePostfix: ' (City)'
-    mayorPrefix: ''
+    mayorPrefix: 'Mayor'
     mayorPostfix: ''
     townBlockLimit: 176
     namePrefix: ''
     numResidents: 10
   - upkeepModifier: 1.0
     namePostfix: ' (Metropolis)'
-    mayorPrefix: ''
+    mayorPrefix: 'Mayor'
     mayorPostfix: ''
     townBlockLimit: 183
     namePrefix: ''
     numResidents: 11
   - upkeepModifier: 1.0
     namePostfix: ' (Metropolis)'
-    mayorPrefix: ''
+    mayorPrefix: 'Mayor'
     mayorPostfix: ''
     townBlockLimit: 189
     namePrefix: ''
     numResidents: 12
   - upkeepModifier: 1.0
     namePostfix: ' (Metropolis)'
-    mayorPrefix: ''
+    mayorPrefix: 'Mayor'
     mayorPostfix: ''
     townBlockLimit: 194
     namePrefix: ''
     numResidents: 13
   - upkeepModifier: 1.0
     namePostfix: ' (Metropolis)'
-    mayorPrefix: ''
+    mayorPrefix: 'Mayor'
     mayorPostfix: ''
     townBlockLimit: 199
     namePrefix: ''
     numResidents: 14
   - upkeepModifier: 1.0
     namePostfix: ' (Metropolis)'
-    mayorPrefix: ''
+    mayorPrefix: 'Mayor'
     mayorPostfix: ''
     townBlockLimit: 204
     namePrefix: ''
@@ -206,7 +206,7 @@ levels:
   - capitalPostfix: ''
     upkeepModifier: 1.0
     namePostfix: ' (Nation)'
-    kingPrefix: ''
+    kingPrefix: 'Leader'
     townBlockLimitBonus: 10
     namePrefix: ''
     numResidents: 1
