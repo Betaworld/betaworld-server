@@ -3,6 +3,7 @@ groups:
     permissions:
     - dynmap.*
     - essentials.*
+    - essentials.gamemode
     - essentials.killall
     - essentials.reload
     - essentials.setspawn
@@ -11,6 +12,9 @@ groups:
     - groupmanager.*
     - prism.*
     - towny.admin
+    - towny.chat.*
+    - townychat.*
+    - worldborder.*
   g:warden:
     permissions:
     - jail.command.jailcreate

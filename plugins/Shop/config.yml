@@ -1,14 +1,20 @@
 # Thanks for downloading Shop! #
-# If you enjoy the plugin, let me know! I would love to hear from you! #
+#——————————————————————————————#
+
+AUTO-UPDATE: true
 
 usePermissions: false
 
-# If you want to use money from a plugin like iConomy #
-# Set 'useVault' to true #
-# You must have Vault installed to do this #
+# If you want to use virtual money, install the plugin Vault and set ‘useVault to true #
+# For itemCurrencyID, see http://www.minecraftinfo.com/idlist.htm #
 
 Economy:
    useVault: true
-   itemId: 388
-   name: β
-   amountToStart: 0
+   itemCurrencyID (non-vault): 388;0
+   displayName: β
+   currencyToStartWith: 0
+
+
+# Allowable percent difference in durabilities of items in shops #
+maxDurabilityMargin: 5
+
