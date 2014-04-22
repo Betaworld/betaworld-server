@@ -687,15 +687,15 @@ economy:
  
   new_expand:
     # How much it costs to start a nation.
-    price_new_nation: '0.0'
+    price_new_nation: '10000.0'
     # How much it costs to start a town.
     price_new_town: '1000.0'
     # How much it costs to make an outpost. An outpost isn't limited to being on the edge of town.
-    price_outpost: '250.0'
+    price_outpost: '500.0'
     # The price for a town to expand one townblock.
     price_claim_townblock: '0.0'
     # How much it costs a player to buy extra blocks.
-    price_purchased_bonus_townblock: '50.0'
+    price_purchased_bonus_townblock: '250.0'
     # How much every extra bonus block costs more. Set to 1 to deactivate this. 1.2 means +20% to every bonus claim block cost.
     price_purchased_bonus_townblock_increase: '1.0'
  
@@ -714,7 +714,7 @@ economy:
     nation_allow_withdrawls: 'true'
   closed_economy:
     # The name of the account that all money that normally disappears goes into.
-    server_account: Betas of BetaWorld
+    server_account: BetaWorld Global Government
     # Turn on/off whether all transactions that normally don't have a second party are to be done with a certain account.
     # Eg: The money taken during Daily Taxes is just removed. With this on, the amount taken would be funneled into an account.
     #     This also applies when a player collects money, like when the player is refunded money when a delayed teleport fails.
