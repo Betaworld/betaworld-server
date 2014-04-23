@@ -1,6 +1,7 @@
 groups:
   g:president:
     permissions:
+    - am2.commands.respec
     - dynmap.*
     - essentials.*
     - essentials.gamemode
@@ -15,7 +16,6 @@ groups:
     - towny.chat.*
     - townychat.*
     - worldborder.*
-    - am2.commands.respec
   g:warden:
     permissions:
     - jail.command.jailcreate
@@ -76,6 +76,7 @@ groups:
     permissions:
     - -essentials.warp
     - -essentials.warps
+    - dynmap.webchat
     - essentials.balance
     - essentials.mail
     - essentials.mail.send
