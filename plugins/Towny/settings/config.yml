@@ -304,10 +304,10 @@ new_world_settings:
       unclaim_delete: 26,50,55,63,64,68,70,71,72,75,76,93,94
  
     mayor_plotblock_delete:
-      enabled: NONE
+      enabled: 'true'
       # These items will be deleted upon a mayor using /plot clear
       # To disable deleting replace the current entries with NONE.
-      mayor_plot_delete: NONE
+      mayor_plot_delete: 5, 4, 8, 9, 10, 11, 17, 18, 20, 24, 30, 31, 32, 35, 37, 38, 39, 40, 43, 44, 45, 50, 51, 53, 58, 59, 63, 65, 64, 67, 68, 87, 88, 89, 90, 82, 85, 86, 82, 101
  
     revert_on_unclaim:
       # *** WARNING***
