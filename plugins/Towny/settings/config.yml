@@ -97,105 +97,105 @@ levels:
     numResidents: 0
   - upkeepModifier: 1.0
     namePostfix: ' (Settlement)'
-    mayorPrefix: Hermit
+    mayorPrefix: 'Hermit'
     mayorPostfix: ''
     townBlockLimit: 16
     namePrefix: ''
     numResidents: 1
   - upkeepModifier: 1.0
     namePostfix: ' (Settlement)'
-    mayorPrefix: Mayor
+    mayorPrefix: 'Mayor'
     mayorPostfix: ''
     townBlockLimit: 64
     namePrefix: ''
     numResidents: 2
   - upkeepModifier: 1.0
     namePostfix: ' (Hamlet)'
-    mayorPrefix: Mayor
+    mayorPrefix: 'Mayor'
     mayorPostfix: ''
     townBlockLimit: 92
     namePrefix: ''
     numResidents: 3
   - upkeepModifier: 1.0
     namePostfix: ' (Hamlet)'
-    mayorPrefix: Mayor
+    mayorPrefix: 'Mayor'
     mayorPostfix: ''
     townBlockLimit: 112
     namePrefix: ''
     numResidents: 4
   - upkeepModifier: 1.0
     namePostfix: ' (Village)'
-    mayorPrefix: Mayor
+    mayorPrefix: 'Mayor'
     mayorPostfix: ''
     townBlockLimit: 128
     namePrefix: ''
     numResidents: 5
   - upkeepModifier: 1.0
     namePostfix: ' (Village)'
-    mayorPrefix: Mayor
+    mayorPrefix: 'Mayor'
     mayorPostfix: ''
     townBlockLimit: 141
     namePrefix: ''
     numResidents: 6
   - upkeepModifier: 1.0
     namePostfix: ' (Town)'
-    mayorPrefix: Mayor
+    mayorPrefix: 'Mayor'
     mayorPostfix: ''
     townBlockLimit: 151
     namePrefix: ''
     numResidents: 7
   - upkeepModifier: 1.0
     namePostfix: ' (Town)'
-    mayorPrefix: Mayor
+    mayorPrefix: 'Mayor'
     mayorPostfix: ''
     townBlockLimit: 160
     namePrefix: ''
     numResidents: 8
   - upkeepModifier: 1.0
     namePostfix: ' (City)'
-    mayorPrefix: Mayor
+    mayorPrefix: 'Mayor'
     mayorPostfix: ''
     townBlockLimit: 169
     namePrefix: ''
     numResidents: 9
   - upkeepModifier: 1.0
     namePostfix: ' (City)'
-    mayorPrefix: Mayor
+    mayorPrefix: 'Mayor'
     mayorPostfix: ''
     townBlockLimit: 176
     namePrefix: ''
     numResidents: 10
   - upkeepModifier: 1.0
     namePostfix: ' (Metropolis)'
-    mayorPrefix: Mayor
+    mayorPrefix: 'Mayor'
     mayorPostfix: ''
     townBlockLimit: 183
     namePrefix: ''
     numResidents: 11
   - upkeepModifier: 1.0
     namePostfix: ' (Metropolis)'
-    mayorPrefix: Mayor
+    mayorPrefix: 'Mayor'
     mayorPostfix: ''
     townBlockLimit: 189
     namePrefix: ''
     numResidents: 12
   - upkeepModifier: 1.0
     namePostfix: ' (Metropolis)'
-    mayorPrefix: Mayor
+    mayorPrefix: 'Mayor'
     mayorPostfix: ''
     townBlockLimit: 194
     namePrefix: ''
     numResidents: 13
   - upkeepModifier: 1.0
     namePostfix: ' (Metropolis)'
-    mayorPrefix: Mayor
+    mayorPrefix: 'Mayor'
     mayorPostfix: ''
     townBlockLimit: 199
     namePrefix: ''
     numResidents: 14
   - upkeepModifier: 1.0
     namePostfix: ' (Metropolis)'
-    mayorPrefix: Mayor
+    mayorPrefix: 'Mayor'
     mayorPostfix: ''
     townBlockLimit: 204
     namePrefix: ''
@@ -206,7 +206,7 @@ levels:
   - capitalPostfix: ''
     upkeepModifier: 1.0
     namePostfix: ' (Nation)'
-    kingPrefix: Leader
+    kingPrefix: 'Leader'
     townBlockLimitBonus: 10
     namePrefix: ''
     numResidents: 1
@@ -304,10 +304,10 @@ new_world_settings:
       unclaim_delete: 26,50,55,63,64,68,70,71,72,75,76,93,94
  
     mayor_plotblock_delete:
-      enabled: NONE
+      enabled: 'true'
       # These items will be deleted upon a mayor using /plot clear
       # To disable deleting replace the current entries with NONE.
-      mayor_plot_delete: NONE
+      mayor_plot_delete: 5, 4, 8, 9, 10, 11, 17, 18, 20, 24, 30, 31, 32, 35, 37, 38, 39, 40, 43, 44, 45, 50, 51, 53, 58, 59, 63, 65, 64, 67, 68, 87, 88, 89, 90, 82, 85, 86, 82, 101
  
     revert_on_unclaim:
       # *** WARNING***
