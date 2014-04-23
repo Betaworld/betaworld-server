@@ -19,12 +19,12 @@ commands:
 settings:
   log-filters:
   - ^(.*)(/login)(.*)$
-  bungeecord-addresses:
-  - 127.0.0.1
-  bungeecord: true
   timeout-time: 60
   restart-on-crash: true
   restart-script: ./start.sh
+  bungeecord-addresses:
+  - 127.0.0.1
+  bungeecord: true
   prevent-proxies: false
   netty-threads: 3
 listeners:
@@ -40,6 +40,14 @@ messages:
 world-settings:
   default:
     verbose: false
+    growth:
+      cactus-modifier: 100
+      cane-modifier: 100
+      melon-modifier: 100
+      mushroom-modifier: 100
+      pumpkin-modifier: 100
+      sapling-modifier: 100
+      wheat-modifier: 100
     anti-xray:
       engine-mode: 1
       blocks:
@@ -58,14 +66,6 @@ world-settings:
       - 82
       - 129
       - 130
-    growth:
-      cactus-modifier: 100
-      cane-modifier: 100
-      melon-modifier: 100
-      mushroom-modifier: 100
-      pumpkin-modifier: 100
-      sapling-modifier: 100
-      wheat-modifier: 100
     entity-activation-range:
       animals: 32
       monsters: 32

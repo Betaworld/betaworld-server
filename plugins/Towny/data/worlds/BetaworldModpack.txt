@@ -1,4 +1,4 @@
-towns=Merconia,York,Triss,Haven,
+towns=Merconia,York,Triss,Haven,Neriak,
 
 pvp=true
 forcepvp=false

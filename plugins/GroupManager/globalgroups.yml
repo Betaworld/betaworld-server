@@ -15,6 +15,7 @@ groups:
     - towny.chat.*
     - townychat.*
     - worldborder.*
+    - am2.commands.respec
   g:warden:
     permissions:
     - jail.command.jailcreate
