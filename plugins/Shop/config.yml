@@ -1,0 +1,20 @@
+# Thanks for downloading Shop! #
+#——————————————————————————————#
+
+AUTO-UPDATE: true
+
+usePermissions: false
+
+# If you want to use virtual money, install the plugin Vault and set ‘useVault to true #
+# For itemCurrencyID, see http://www.minecraftinfo.com/idlist.htm #
+
+Economy:
+   useVault: true
+   itemCurrencyID (non-vault): 388;0
+   displayName: β
+   currencyToStartWith: 0
+
+
+# Allowable percent difference in durabilities of items in shops #
+maxDurabilityMargin: 5
+

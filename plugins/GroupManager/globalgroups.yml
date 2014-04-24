@@ -1,82 +1,23 @@
 groups:
-  g:visitor:
-    default: true
+  g:president:
     permissions:
-    - -*
-    # Essentials
-    - essentials.afk
-    - essentials.book
-    - essentials.compass
-    - essentials.depth
-    - essentials.getpos
-    - essentials.help
-    - essentials.helpop
-    - essentials.itemdb
-    - essentials.list
-    - essentials.motd
-    - essentials.near
-    - essentials.r
-    - essentials.realname
-    - essentials.recipe
-    - essentials.rules
-    - essentials.seen
-    - essentials.suicide
+    - am2.commands.respec
+    - dynmap.*
+    - essentials.*
+    - essentials.gamemode
+    - essentials.killall
+    - essentials.reload
+    - essentials.setspawn
     - essentials.time
-    - essentials.kick.notify
-    - essentials.ban.notify
-    - essentials.exp
-    - essentials.ping
-    # Chat
-    - essentials.afk
-    - essentials.chat.color
-    - essentials.chat.format
-    - essentials.chat.magic
-    - essentials.chat.question
-    - essentials.chat.shout
-    - essentials.chat.url
-    - essentials.ignore
-    - essentials.me
-    - essentials.msg
-    - essentials.msg.color
-    - essentials.msg.format
-    - essentials.nick
-    # Teleportation
-    - essentials.tpaccept
-    - essentials.tpdeny
-    # Warping
-    - essentials.warp
-    - essentials.warps
-    info:
-      prefix: '&bVisitor '
-      build: false
-
-  g:citizen:
-    default: false
-    permissions:
-    # Essentials
-    - essentials.mail
-    - essentials.mail.send
-    # Shop
-    - shop.use # allows player to use shops
-    - shop.create # allows player to create shops
-    - shop.destroy # allows player to destroy shops
-    # ServerLaws
-    - serverlaws.bypass
-    # Economy
-    - essentials.balance
-    - essentials.pay
-    - -essentials.warp
-    - -essentials.warps
-    inheritance:
-    - g:visitor
-    info:
-      prefix: '&7'
-      build: true
-
+    - essentials.time.*
+    - groupmanager.*
+    - prism.*
+    - towny.admin
+    - towny.chat.*
+    - townychat.*
+    - worldborder.*
   g:warden:
-    default: false
     permissions:
-    # Jail Creation
     - jail.command.jailcreate
     - jail.command.jailcreatecells
     - jail.command.jaildelete
@@ -86,71 +27,109 @@ groups:
     - jail.command.jailcheck
     - jail.command.jaillist
     - jail.command.jaillistcells
-    inheritance:
-    - g:citizen
-    info:
-      prefix: '&aWarden '
-      build: true
-
+  g:visitor:
+    permissions:
+    - essentials.afk
+    - essentials.ban.notify
+    - essentials.book
+    - essentials.chat.color
+    - essentials.chat.format
+    - essentials.chat.magic
+    - essentials.chat.question
+    - essentials.chat.shout
+    - essentials.chat.url
+    - essentials.compass
+    - essentials.depth
+    - essentials.exp
+    - essentials.getpos
+    - essentials.help
+    - essentials.helpop
+    - essentials.ignore
+    - essentials.itemdb
+    - essentials.kick.notify
+    - essentials.list
+    - essentials.me
+    - essentials.motd
+    - essentials.msg
+    - essentials.msg.color
+    - essentials.msg.format
+    - essentials.near
+    - essentials.nick
+    - essentials.ping
+    - essentials.r
+    - essentials.realname
+    - essentials.recipe
+    - essentials.rules
+    - essentials.seen
+    - essentials.suicide
+    - essentials.time
+    - essentials.tpaccept
+    - essentials.tpdeny
+    - essentials.warp
+    - essentials.warps
   g:immigration_director:
-    default: false
     permissions:
     - essentials.addwarp
     - essentials.delwarp
     - essentials.setwarp
-    inheritance:
-    - g:citizen
-    info:
-      prefix: '&aImmigration Director '
-      build: true
-  
-  g:judge:
-    default: false
+  g:citizen:
     permissions:
-    # X-Ray Protection
-    - rateofxray.admin
-    - rateofxray.nolog
-    # Teleporting
+    - -essentials.warp
+    - -essentials.warps
+    - dynmap.webchat
+    - essentials.balance
+    - essentials.mail
+    - essentials.mail.send
+    - essentials.pay
+    - serverlaws.bypass
+    - shop.create
+    - shop.destroy
+    - shop.use
+    - towny.command.nation.*
+    - towny.command.townyadmin.nation.*
+    - towny.command.townyadmin.town.*
+    - towny.nation.*
+    - towny.town.*
+    - towny.wild.*
+  g:judge:
+    permissions:
     - essentials.back
-    - essentials.top
-    - essentials.tp
-    - essentials.tpa
-    - essentials.tpahere
-    - essentials.tpo
-    - essentials.tpohere
-    - essentials.tphere
-    - essentials.tppos
-    - essentials.spawn
-    - essentials.jump
-    - essentials.world
-    # Flying
+    - essentials.broadcast
+    - essentials.ext
     - essentials.fly
-    # Protection
+    - essentials.getpos.others
     - essentials.god
-    # Essentials
-    - essentials.helpop.recieve 
+    - essentials.helpop.recieve
     - essentials.home
     - essentials.home.others
-    - essentials.ext    
-    - essentials.getpos.others
-    - essentials.invsee    
+    - essentials.invsee
+    - essentials.jump
     - essentials.mute
     - essentials.ptime
     - essentials.ptime.others
     - essentials.seen.banreason
     - essentials.seen.extra
+    - essentials.spawn
     - essentials.time
+    - essentials.top
+    - essentials.tp
+    - essentials.tpa
+    - essentials.tpahere
+    - essentials.tphere
+    - essentials.tpo
+    - essentials.tpohere
+    - essentials.tppos
     - essentials.vanish
     - essentials.whois
     - essentials.workbench
-    - essentials.broadcast
-    # Jail
+    - essentials.world
+    - jail.command.handcuff
     - jail.command.jail
-    - jail.command.unjail
     - jail.command.jailclear
     - jail.command.jailmute
-    - jail.command.handcuff
-    # Investigation Tools
+    - jail.command.unjail
+    - rateofxray.admin
+    - rateofxray.nolog
     - vanish.hooks.essentials.hide
     - vanish.nofollow
     - vanish.nopickup
@@ -159,20 +138,3 @@ groups:
     - vanish.silentjoin
     - vanish.silentquit
     - vanish.vanish
-    inheritance:
-    - g:citizen
-    info:
-      prefix: '&aJudge '
-      build: true
-
-  g:president:
-    default: false
-    permissions:
-    - dynmap.*
-    - groupmanager.*
-    - essentials.setspawn
-    inheritance:
-    - g:judge
-    info:
-      prefix: '&aPresident '
-      build: true

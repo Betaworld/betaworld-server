@@ -65,3 +65,4 @@ ItemPickUp: true
 ### Commands WhiteList (/rules and /rules <page> will always be available)
 Enabled_Commands:
   - /help
+  - /spawn
