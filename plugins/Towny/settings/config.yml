@@ -89,113 +89,113 @@ levels:
   # default Town levels.
   town_level:
   - upkeepModifier: 1.0
-    namePostfix: '&f[&eAbandoned&f]'
+    namePostfix: '[Abandoned]'
     mayorPrefix: ''
     mayorPostfix: ''
     townBlockLimit: 1
     namePrefix: ''
     numResidents: 0
   - upkeepModifier: 1.0
-    namePostfix: '&f[&eSettlement&f]'
-    mayorPrefix: '&f[&eHermit&f] '
+    namePostfix: '[Settlement]'
+    mayorPrefix: '[Hermit] '
     mayorPostfix: ''
     townBlockLimit: 16
     namePrefix: ''
     numResidents: 1
   - upkeepModifier: 1.0
-    namePostfix: '&f[&eSettlement&f]'
-    mayorPrefix: '&f[&eMayor&f] '
+    namePostfix: '[Settlement]'
+    mayorPrefix: '[Mayor] '
     mayorPostfix: ''
     townBlockLimit: 64
     namePrefix: ''
     numResidents: 2
   - upkeepModifier: 1.0
-    namePostfix: '&f[&eHamlet&f]'
-    mayorPrefix: '&f[&eMayor&f] '
+    namePostfix: '[Hamlet]'
+    mayorPrefix: '[Mayor] '
     mayorPostfix: ''
     townBlockLimit: 92
     namePrefix: ''
     numResidents: 3
   - upkeepModifier: 1.0
-    namePostfix: '&f[&eHamlet&f]'
-    mayorPrefix: '&f[&eMayor&f] '
+    namePostfix: '[Hamlet]'
+    mayorPrefix: '[Mayor] '
     mayorPostfix: ''
     townBlockLimit: 112
     namePrefix: ''
     numResidents: 4
   - upkeepModifier: 1.0
-    namePostfix: '&f[&eVillage&f]'
-    mayorPrefix: '&f[&eMayor&f] '
+    namePostfix: '[Village]'
+    mayorPrefix: '[Mayor] '
     mayorPostfix: ''
     townBlockLimit: 128
     namePrefix: ''
     numResidents: 5
   - upkeepModifier: 1.0
-    namePostfix: '&f[&eVillage&f]'
-    mayorPrefix: '&f[&eMayor&f] '
+    namePostfix: '[Village]'
+    mayorPrefix: '[Mayor] '
     mayorPostfix: ''
     townBlockLimit: 141
     namePrefix: ''
     numResidents: 6
   - upkeepModifier: 1.0
-    namePostfix: '&f[&eTown&f]'
-    mayorPrefix: '&f[&eMayor&f] '
+    namePostfix: '[Town]'
+    mayorPrefix: '[Mayor] '
     mayorPostfix: ''
     townBlockLimit: 151
     namePrefix: ''
     numResidents: 7
   - upkeepModifier: 1.0
-    namePostfix: '&f[&eTown&f]'
-    mayorPrefix: '&f[&eMayor&f] '
+    namePostfix: '[Town]'
+    mayorPrefix: '[Mayor] '
     mayorPostfix: ''
     townBlockLimit: 160
     namePrefix: ''
     numResidents: 8
   - upkeepModifier: 1.0
-    namePostfix: '&f[&eCity&f]'
-    mayorPrefix: '&f[&eMayor&f] '
+    namePostfix: '[City]'
+    mayorPrefix: '[Mayor] '
     mayorPostfix: ''
     townBlockLimit: 169
     namePrefix: ''
     numResidents: 9
   - upkeepModifier: 1.0
-    namePostfix: '&f[&eCity&f]'
-    mayorPrefix: '&f[&eMayor&f] '
+    namePostfix: '[City]'
+    mayorPrefix: '[Mayor] '
     mayorPostfix: ''
     townBlockLimit: 176
     namePrefix: ''
     numResidents: 10
   - upkeepModifier: 1.0
-    namePostfix: '&f[&eMetropolis&f]'
-    mayorPrefix: '&f[&eMayor&f] '
+    namePostfix: '[Metropolis]'
+    mayorPrefix: '[Mayor] '
     mayorPostfix: ''
     townBlockLimit: 183
     namePrefix: ''
     numResidents: 11
   - upkeepModifier: 1.0
-    namePostfix: '&f[&eMetropolis&f]'
-    mayorPrefix: '&f[&eMayor&f] '
+    namePostfix: '[Metropolis]'
+    mayorPrefix: '[Mayor] '
     mayorPostfix: ''
     townBlockLimit: 189
     namePrefix: ''
     numResidents: 12
   - upkeepModifier: 1.0
-    namePostfix: '&f[&eMetropolis&f]'
-    mayorPrefix: '&f[&eMayor&f] '
+    namePostfix: '[Metropolis]'
+    mayorPrefix: '[Mayor] '
     mayorPostfix: ''
     townBlockLimit: 194
     namePrefix: ''
     numResidents: 13
   - upkeepModifier: 1.0
-    namePostfix: '&f[&eMetropolis&f]'
-    mayorPrefix: '&f[&eMayor&f] '
+    namePostfix: '[Metropolis]'
+    mayorPrefix: '[Mayor] '
     mayorPostfix: ''
     townBlockLimit: 199
     namePrefix: ''
     numResidents: 14
   - upkeepModifier: 1.0
-    namePostfix: '&f[&eMetropolis&f]'
-    mayorPrefix: '&f[&eMayor&f] '
+    namePostfix: '[Metropolis]'
+    mayorPrefix: '[Mayor] '
     mayorPostfix: ''
     townBlockLimit: 204
     namePrefix: ''
@@ -206,7 +206,7 @@ levels:
   - capitalPostfix: ''
     upkeepModifier: 1.0
     namePostfix: ''
-    kingPrefix: '&f[&eLeader&f] '
+    kingPrefix: '[Leader] '
     townBlockLimitBonus: 10
     namePrefix: ''
     numResidents: 1
