@@ -274,10 +274,10 @@ render-triggers:
 webpage-title: "Betaworld Map"
 
 # The path where the tile-files are placed.
-tilespath: web/tiles
+tilespath: /var/www/map/tiles
 
 # The path where the web-files are located.
-webpath: web
+webpath: /var/www/map/
 
 # The network-interface the webserver will bind to (0.0.0.0 for all interfaces, 127.0.0.1 for only local access).
 # If not set, uses same setting as server in server.properties (or 0.0.0.0 if not specified)
