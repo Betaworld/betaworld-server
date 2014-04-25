@@ -3,7 +3,7 @@ worlds:
     height: 256
     the_end: false
     sealevel: 64
-    name: BetaworldModpack
+    name: Betaworld
     nether: false
 -   title: DIM-17/Wyvern Lair
     height: 256

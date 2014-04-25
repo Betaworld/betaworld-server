@@ -362,7 +362,7 @@ check-banned-ips: true
 
 # Default selection when map page is loaded
 defaultzoom: 0
-defaultworld: BetaworldModpack
+defaultworld: Betaworld
 defaultmap: flat
 # (optional) Zoom level and map to switch to when following a player, if possible
 #followzoom: 3

@@ -1,5 +1,5 @@
 cfg-version: 7
-message: You have reached the edge of this world.
+message: You have reached the edge of Betaworld.
 round-border: true
 debug-mode: true
 whoosh-effect: false
@@ -11,19 +11,7 @@ dynmap-border-enabled: false
 dynmap-border-message: The border of the world.
 player-killed-bad-spawn: false
 worlds:
-  BetaworldRC1:
-    x: 0.5
-    z: 0.5
-    radiusX: 12000
-    radiusZ: 12000
-    wrapping: false
-  BetaworldRC2:
-    x: 0.5
-    z: 0.5
-    radiusX: 12000
-    radiusZ: 12000
-    wrapping: false
-  BetaworldModpack:
+  Betaworld:
     x: 0.5
     z: 0.5
     radiusX: 120000
