@@ -53,28 +53,28 @@ components:
   #   # If true, player names are not shown on map, chat, list
   #   hidenames: false
   - class: org.dynmap.JsonFileClientUpdateComponent
-   writeinterval: 1
-   sendhealth: true
-   sendposition: true
-   allowwebchat: true
-   webchat-interval: 0
-   hidewebchatip: true
-   includehiddenplayers: true
-   use-name-colors: false
-   use-player-login-ip: false
-   require-player-login-ip: false
-   block-banned-player-chat: true
-   hideifshadow: 0
-   hideifundercover: 0
-   hideifsneaking: false
-   # Require login for web-to-server chat (requires login-enabled: true)
-   webchat-requires-login: false
-   # If set to true, users must have dynmap.webchat permission in order to chat
-   webchat-permissions: false
-   # Limit length of single chat messages
-   chatlengthlimit: 256
-   hide-if-invisiblity-potion: true
-   hidenames: false
+    writeinterval: 1
+    sendhealth: true
+    sendposition: true
+    allowwebchat: true
+    webchat-interval: 0
+    hidewebchatip: true
+    includehiddenplayers: true
+    use-name-colors: false
+    use-player-login-ip: false
+    require-player-login-ip: false
+    block-banned-player-chat: true
+    hideifshadow: 0
+    hideifundercover: 0
+    hideifsneaking: false
+    # Require login for web-to-server chat (requires login-enabled: true)
+    webchat-requires-login: false
+    # If set to true, users must have dynmap.webchat permission in order to chat
+    webchat-permissions: false
+    # Limit length of single chat messages
+    chatlengthlimit: 256
+    hide-if-invisiblity-potion: true
+    hidenames: false
    
   - class: org.dynmap.SimpleWebChatComponent
     allowchat: true
