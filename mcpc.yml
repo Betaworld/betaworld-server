@@ -76,25 +76,25 @@ world-settings:
     infinite-water-source: true
     flowing-lava-decay: false
     despawn-immediate: true
-    worldgen-ExtrabiomesXL-CatTailGenerator: true
     worldgen-GalacticraftCore-GCCoreOverworldGenerator: true
-    worldgen-CalclaviaCore-OreGenerator: true
-    worldgen-ExtrabiomesXL-EelGrassGenerator: true
-    worldgen-ExtrabiomesXL-LegendOakGenerator: true
-    worldgen-arsmagica2-AM2WorldDecorator: true
-    worldgen-ExtrabiomesXL-OilGenerator: true
-    worldgen-ExtrabiomesXL-VineGenerator: true
-    worldgen-wildcaves3-WorldGenWildCaves: true
     worldgen-ExtrabiomesXL-VanillaFloraGenerator: true
-    worldgen-TConstruct-TBaseWorldGenerator: true
-    worldgen-TConstruct-SlimeIslandGen: true
-    worldgen-wildcaves3-EventManager: true
-    worldgen-ExtrabiomesXL-FlowerGenerator: true
-    worldgen-ATG-ATGWorldGenCliffs: true
     worldgen-ExtrabiomesXL-QuicksandGenerator: true
-    worldgen-ATG-ATGWorldGenHighAltitudePockets: true
     worldgen-ATG-ATGWorldGenRocks: true
     worldgen-ExtrabiomesXL-LeafPileGenerator: true
+    worldgen-ATG-ATGWorldGenCliffs: true
+    worldgen-CalclaviaCore-OreGenerator: true
+    worldgen-ExtrabiomesXL-EelGrassGenerator: true
+    worldgen-ExtrabiomesXL-CatTailGenerator: true
+    worldgen-TConstruct-TBaseWorldGenerator: true
+    worldgen-ATG-ATGWorldGenHighAltitudePockets: true
+    worldgen-ExtrabiomesXL-VineGenerator: true
+    worldgen-ExtrabiomesXL-FlowerGenerator: true
+    worldgen-ExtrabiomesXL-LegendOakGenerator: true
+    worldgen-ExtrabiomesXL-OilGenerator: true
+    worldgen-TConstruct-SlimeIslandGen: true
+    worldgen-wildcaves3-WorldGenWildCaves: true
+    worldgen-wildcaves3-EventManager: true
+    worldgen-arsmagica2-AM2WorldDecorator: true
     worldgen-Thaumcraft-ThaumcraftWorldGenerator: true
     worldgen-millenaire-WorldGenVillage: true
     worldgen-ExtrabiomesXL-MountainRidgeGenerator: true

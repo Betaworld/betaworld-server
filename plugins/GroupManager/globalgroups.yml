@@ -91,6 +91,7 @@ groups:
     - towny.nation.*
     - towny.town.*
     - towny.wild.*
+    - towny.chat.general
   g:judge:
     permissions:
     - essentials.back
