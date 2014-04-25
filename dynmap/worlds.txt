@@ -9,7 +9,7 @@ worlds:
   # Worlds can be handled by templates, based on world type
   # You can override the properties of the template by specifying them in this section
   #    for example 'Title: "My Awesome World"'
-  - name: BetaworldModpack
+  - name: Betaworld
     title: "Betaworld"
   #   Use 'enabled: false' to disable a certain world.
   #  enabled: false
