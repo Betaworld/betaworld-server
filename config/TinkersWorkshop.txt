@@ -161,7 +161,7 @@ dimblacklist {
 
 "environment checks" {
     # Change env check warnings to reflect that this is a modpack.
-    B:IsModpack=false
+    B:IsModpack=true
 }
 
 
