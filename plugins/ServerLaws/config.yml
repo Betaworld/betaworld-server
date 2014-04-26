@@ -18,7 +18,7 @@ Language: english
 
 #====================================== Timer Settings ======================================#
 ### Reminder; this will send a message to the locked player to remind him/her to read the rules.
-Reminder: 60
+Reminder: 300
 
 ### Time to Read next Page; the player must wait this time (seconds) before read the next page, already accepted players will not need to wait.
 Wait: 10

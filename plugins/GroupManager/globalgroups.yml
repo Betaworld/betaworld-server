@@ -1,5 +1,5 @@
 groups:
-  g:president:
+  g:administrator:
     permissions:
     - am2.commands.respec
     - dynmap.*
