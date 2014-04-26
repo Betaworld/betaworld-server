@@ -58,7 +58,7 @@ components:
     sendposition: true
     allowwebchat: true
     webchat-interval: 0
-    hidewebchatip: true
+    hidewebchatip: false
     includehiddenplayers: true
     use-name-colors: false
     use-player-login-ip: false
@@ -144,7 +144,7 @@ components:
   - class: org.dynmap.ClientComponent
     type: timeofdayclock
     showdigitalclock: true
-    #showweather: true
+    showweather: true
   # Mouse pointer world coordinate display
   - class: org.dynmap.ClientComponent
     type: coord
