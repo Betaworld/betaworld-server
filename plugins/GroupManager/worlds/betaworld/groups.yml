@@ -52,11 +52,11 @@ groups:
       prefix: '&aJudge '
       build: true
 
-  President:
+  Administrator:
     default: false
     inheritance:
     - Judge
-    - g:president
+    - g:administrator
     info:
-      prefix: '&aPresident '
+      prefix: '&aAdministrator '
       build: true
