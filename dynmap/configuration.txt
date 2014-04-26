@@ -58,7 +58,7 @@ components:
     sendposition: true
     allowwebchat: true
     webchat-interval: 0
-    hidewebchatip: false
+    hidewebchatip: true
     includehiddenplayers: true
     use-name-colors: false
     use-player-login-ip: false
