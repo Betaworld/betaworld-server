@@ -12,6 +12,7 @@ groups:
     - essentials.time.*
     - groupmanager.*
     - prism.*
+    - serverlaws.admin.commands
     - towny.admin
     - towny.chat.*
     - townychat.*
@@ -76,6 +77,7 @@ groups:
     permissions:
     - -essentials.warp
     - -essentials.warps
+    - dynmap.sendtoweb
     - dynmap.webchat
     - essentials.balance
     - essentials.mail
@@ -85,13 +87,16 @@ groups:
     - shop.create
     - shop.destroy
     - shop.use
+    - towny.chat.general
     - towny.command.nation.*
+    - towny.command.plot.*
+    - towny.command.resident.*
+    - towny.command.town.*
     - towny.command.townyadmin.nation.*
     - towny.command.townyadmin.town.*
     - towny.nation.*
     - towny.town.*
     - towny.wild.*
-    - towny.chat.general
   g:judge:
     permissions:
     - essentials.back

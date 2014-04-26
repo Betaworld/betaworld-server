@@ -11,7 +11,14 @@
 # Forums: http://www.spigotmc.org/forum/
 
 config-version: 3
+commands:
+  spam-exclusions:
+  - /skill
+  log: true
+  tab-complete: true
 settings:
+  log-filters:
+  - ^(.*)(/login)(.*)$
   prevent-proxies: false
   bungeecord-addresses:
   - 127.0.0.1
@@ -19,14 +26,7 @@ settings:
   timeout-time: 60
   restart-on-crash: true
   restart-script: ./start.sh
-  log-filters:
-  - ^(.*)(/login)(.*)$
   netty-threads: 3
-commands:
-  spam-exclusions:
-  - /skill
-  log: true
-  tab-complete: true
 listeners:
 - port: default
   host: default
@@ -40,23 +40,6 @@ messages:
 world-settings:
   default:
     verbose: false
-    growth:
-      cactus-modifier: 100
-      cane-modifier: 100
-      melon-modifier: 100
-      mushroom-modifier: 100
-      pumpkin-modifier: 100
-      sapling-modifier: 100
-      wheat-modifier: 100
-    entity-activation-range:
-      animals: 32
-      monsters: 32
-      misc: 16
-    ticks-per:
-      hopper-transfer: 8
-      hopper-check: 8
-    random-light-updates: false
-    save-mineshaft-structure-info: false
     anti-xray:
       engine-mode: 1
       blocks:
@@ -75,6 +58,23 @@ world-settings:
       - 82
       - 129
       - 130
+    growth:
+      cactus-modifier: 100
+      cane-modifier: 100
+      melon-modifier: 100
+      mushroom-modifier: 100
+      pumpkin-modifier: 100
+      sapling-modifier: 100
+      wheat-modifier: 100
+    entity-activation-range:
+      animals: 32
+      monsters: 32
+      misc: 16
+    ticks-per:
+      hopper-transfer: 8
+      hopper-check: 8
+    random-light-updates: false
+    save-mineshaft-structure-info: false
     mob-spawn-range: 4
     entity-tracking-range:
       players: 48
