@@ -1,24 +1,48 @@
 Aliases:
-  immigrateme:
+  takeCitizenshipOath:
     Type: Multiple
     Permissions: false
     ConsoleExecutor: false
     Commands:
     - acceptrules
   immigrate:
-    Type: Multiple
-    Permissions: false
-    ConsoleExecutor: false
-    Commands:
-    - rules 1
-  immigration:
     Type: Single
     Permissions: false
     ConsoleExecutor: false
     Origin: rules 1
     DisableOrigin:
       Enabled: false
-      Message: Please use /immigration
+      Message: Please use /immigrate
+  maturePlayersOnly:
+    Type: Single
+    Permissions: false
+    ConsoleExecutor: false
+    Origin: rules 2
+  betaworldGlobalGovernment:
+    Type: Single
+    Permissions: false
+    ConsoleExecutor: false
+    Origin: rules 3
+  mobsHateMe:
+    Type: Single
+    Permissions: false
+    ConsoleExecutor: false
+    Origin: rules 4
+  betaworldHasAMap:
+    Type: Single
+    Permissions: false
+    ConsoleExecutor: false
+    Origin: rules 5
+  townsClaimLand:
+    Type: Single
+    Permissions: false
+    ConsoleExecutor: false
+    Origin: rules 6
+  betaworldHasAnEconomy:
+    Type: Single
+    Permissions: false
+    ConsoleExecutor: false
+    Origin: rules 7
   immigratevisitor:
     Type: Single
     Permissions: false

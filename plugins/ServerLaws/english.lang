@@ -1,11 +1,11 @@
 Plugin.Version(Do.Not.Change)(Old.Language.Files.Will.Be.Renamed.To[Old_x.lang])=1.5.1
 Language.File(Do.Not.Change)=english.lang
 Invalid.Page.Number=&cYou must enter a valid number to search for the Rules Page!
-Rules.Cooldown=&cYou must read each rules page for &3%time &cseconds!
+Rules.Cooldown=&cYou only took &3%time &cseconds to read this page? Not likely. Either read it again or wait a few seconds.
 Already.Read.Page=&cYou already read this page! Read the next one!
 Inexistent.Page=&cSorry but the page &3%page &cdoesn't exist!
 Page=&aPage:
-Pages.Left=&aThere are &3%pleft &apages left that you must read before you can be immigrated as a Citizen of Betaworld.
+Pages.Left=&aThere are &3%pleft &apages left that you must read before you can complete your Citizenship.
 Player.Accepted=&aCongratulations, and welcome to Betaworld, Citizen.
 Player.Accepted.ByCommand=&aCongratulations! You are now a Citizen of Betaworld!
 Player.Restricted.ByCommand=&cYou've been restricted by an admin!

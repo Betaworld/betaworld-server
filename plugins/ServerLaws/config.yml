@@ -37,7 +37,7 @@ Player_Command_List:
 
 ### This list of commands will be triggered (in order) by the player once has read all the rules (when accepted).
 Console_Command_List:
-  - "say %player has read and agreed to Betaworld's rules. Please welcome %player as Betaworld's newest Citizen."
+  - "say %player has completed the Official Oath of Betaworld Citizenship. Please welcome %player as Betaworld's newest Citizen."
   - 'manuadd %player Citizen'
 
 #====================================== Restriction Settings ======================================#
@@ -54,13 +54,13 @@ Place: true
 Break: true
 
 ### Lock Take/Deal Damage to player before read the rules?
-Damage: true
+Damage: false
 
 ### Lock Item Drop to player before read the rules?
-ItemDrop: true
+ItemDrop: false
 
 ### Lock Item Pick Up to player before read the rules?
-ItemPickUp: true
+ItemPickUp: false
 
 ### Commands WhiteList (/rules and /rules <page> will always be available)
 Enabled_Commands:

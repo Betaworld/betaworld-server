@@ -683,7 +683,7 @@ newbies:
   # If so, use this format, replacing {DISPLAYNAME} with the player name.
   # If not, set to ''
   #announce-format: ''
-  announce-format: '&dWelcome to Betaworld, {DISPLAYNAME}. &fType /rules 1 to get started!'
+  announce-format: '&dWelcome to Betaworld, {DISPLAYNAME}. &fType /immigrate when you''re ready to become a Citizen.'
 
   # When we spawn for the first time, which spawnpoint do we use?
   # Set to "none" if you want to use the spawn point of the world.
