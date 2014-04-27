@@ -2,6 +2,7 @@ groups:
   g:administrator:
     permissions:
     - am2.commands.respec
+    - bukkit.command.difficulty
     - dynmap.*
     - essentials.*
     - essentials.gamemode
@@ -13,6 +14,7 @@ groups:
     - groupmanager.*
     - prism.*
     - serverlaws.admin.commands
+    - SimpleAlias.*
     - towny.admin
     - towny.chat.*
     - townychat.*
@@ -97,6 +99,7 @@ groups:
     - towny.nation.*
     - towny.town.*
     - towny.wild.*
+    - towny.command.town.buy
   g:judge:
     permissions:
     - essentials.back
