@@ -15,7 +15,7 @@ townsClaimLand:
 betaworldHasAnEconomy:
     0: /rules 8
 takeCitizenshipOath:
-    0: /acceptrules
+    0: /rules 9
 immigratevisitor:
     0: console /manuadd !1p Citizen
 
