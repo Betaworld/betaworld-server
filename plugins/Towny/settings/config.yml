@@ -225,11 +225,11 @@ town:
   # Default Open status of the town (are new towns open and joinable by anyone at creation?)
   default_open: 'false'
   # Limits the maximum amount of bonus blocks a town can buy.
-  max_purchased_blocks: '0'
+  max_purchased_blocks: '100000'
   # maximum number of plots any single resident can own
-  max_plots_per_resident: '10000'
+  max_plots_per_resident: '100000'
   # Maximum number of towns allowed on the server.
-  town_limit: '10000'
+  town_limit: '100000'
  
   # Minimum number of plots any towns home plot must be from the next town.
   # This will prevent someone founding a town right on your doorstep
@@ -693,9 +693,9 @@ economy:
     # How much it costs to make an outpost. An outpost isn't limited to being on the edge of town.
     price_outpost: '1000.0'
     # The price for a town to expand one townblock.
-    price_claim_townblock: '0.0'
+    price_claim_townblock: '100000.0'
     # How much it costs a player to buy extra blocks.
-    price_purchased_bonus_townblock: '100.0'
+    price_purchased_bonus_townblock: '500.0'
     # How much every extra bonus block costs more. Set to 1 to deactivate this. 1.2 means +20% to every bonus claim block cost.
     price_purchased_bonus_townblock_increase: '1.0'
  
