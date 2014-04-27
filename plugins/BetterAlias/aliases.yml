@@ -1,21 +1,21 @@
 immigrate:
-    0: rules 1
+    0: /rules 1
 maturePlayersOnly:
-    0: rules 2
+    0: /rules 2
 betaworldGlobalGovernment:
-    0: rules 3
+    0: /rules 3
 mobsHateMe:
-    0: rules 4
+    0: /rules 4
 betaworldHasAMap:
-    0: rules 5
+    0: /rules 5
 townsClaimLand:
-    0: rules 6
+    0: /rules 6
 betaworldHasAnEconomy:
-    0: rules 7
+    0: /rules 7
 takeCitizenshipOath:
     0: /acceptrules
 immigratevisitor:
-    0: manuadd !1p Citizen
+    0: console /manuadd !1p Citizen
 
 # #name parameter is replaced with the command users name
 # gmon: 
