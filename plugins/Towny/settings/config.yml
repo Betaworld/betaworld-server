@@ -229,7 +229,7 @@ town:
   # maximum number of plots any single resident can own
   max_plots_per_resident: '100000'
   # Maximum number of towns allowed on the server.
-  town_limit: '100000'
+  town_limit: '1000000'
  
   # Minimum number of plots any towns home plot must be from the next town.
   # This will prevent someone founding a town right on your doorstep
@@ -693,7 +693,7 @@ economy:
     # How much it costs to make an outpost. An outpost isn't limited to being on the edge of town.
     price_outpost: '1000.0'
     # The price for a town to expand one townblock.
-    price_claim_townblock: '100000.0'
+    price_claim_townblock: '0.0'
     # How much it costs a player to buy extra blocks.
     price_purchased_bonus_townblock: '500.0'
     # How much every extra bonus block costs more. Set to 1 to deactivate this. 1.2 means +20% to every bonus claim block cost.
@@ -728,7 +728,7 @@ economy:
     # if a town or nation fails to pay it's upkeep it is deleted.
     enabled: 'false'
     # Maximum tax amount allowed when using flat taxes
-    max_tax_amount: '10000.0'
+    max_tax_amount: '1000000.0'
     # maximum tax percentage allowed when taxing by percentages
     max_tax_percent: '100'
     # The server's daily charge on each nation. If a nation fails to pay this upkeep
