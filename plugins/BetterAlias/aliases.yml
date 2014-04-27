@@ -4,14 +4,16 @@ maturePlayersOnly:
     0: /rules 2
 betaworldGlobalGovernment:
     0: /rules 3
-mobsHateMe:
+readTheGuide:
     0: /rules 4
-betaworldHasAMap:
+mobsHateMe:
     0: /rules 5
-townsClaimLand:
+betaworldHasAMap:
     0: /rules 6
-betaworldHasAnEconomy:
+townsClaimLand:
     0: /rules 7
+betaworldHasAnEconomy:
+    0: /rules 8
 takeCitizenshipOath:
     0: /acceptrules
 immigratevisitor:
