@@ -687,7 +687,7 @@ economy:
  
   new_expand:
     # How much it costs to start a nation.
-    price_new_nation: '50000.0'
+    price_new_nation: '75000.0'
     # How much it costs to start a town.
     price_new_town: '6000.0'
     # How much it costs to make an outpost. An outpost isn't limited to being on the edge of town.
