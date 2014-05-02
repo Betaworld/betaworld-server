@@ -2,6 +2,7 @@ groups:
   g:administrator:
     permissions:
     - am2.commands.respec
+    - BetterAlias.reload
     - bukkit.command.difficulty
     - dynmap.*
     - essentials.*
@@ -70,6 +71,7 @@ groups:
     - essentials.tpdeny
     - essentials.warp
     - essentials.warps
+    - serverlaws.user.commands
   g:immigration_director:
     permissions:
     - essentials.addwarp
@@ -94,12 +96,12 @@ groups:
     - towny.command.plot.*
     - towny.command.resident.*
     - towny.command.town.*
+    - towny.command.town.buy
     - towny.command.townyadmin.nation.*
     - towny.command.townyadmin.town.*
     - towny.nation.*
     - towny.town.*
     - towny.wild.*
-    - towny.command.town.buy
   g:judge:
     permissions:
     - essentials.back
