@@ -23,7 +23,7 @@ Page_2:
   - ''
   - '&cAll Citizens are required to read and understand this Constitution. It is located here: &fhttp://LifeOnBetaworld.com/constitution'
   - ''
-  - '&fThe command to move on is located somewhere in the Constitution.'
+  - '&fAfter you read the Constitution, type /betaworldGlobalGovernment to move on'
   - ''
 Page_3:
   Title: '&aThe Official Betaworld Guide'
@@ -35,7 +35,7 @@ Page_3:
   - '&c* &3Command guides for starting towns, nations, and for creating NPC guards.'
   - '&c* &3Full chart and explanation of each position in government'
   - ''
-  - '&fThe command to move on is located at the end of the Getting Started section of the guide.'
+  - '&fThe command to move on is located at the end of the "Economy" section of the guide.'
   - ''
 Page_4:
   Title: '&aOur Mobs &lHATE YOU.'
