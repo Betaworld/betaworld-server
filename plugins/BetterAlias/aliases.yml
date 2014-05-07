@@ -1,21 +1,19 @@
 immigrate:
     0: /rules 1
-maturePlayersOnly:
+beginImmigration:
     0: /rules 2
-betaworldGlobalGovernment:
+betaworldCapitolMerconia:
     0: /rules 3
-readTheGuide:
+iShouldGetSomeArmor:
     0: /rules 4
-mobsHateMe:
+websiteMap:
     0: /rules 5
-betaworldHasAMap:
-    0: /rules 6
 townsClaimLand:
-    0: /rules 7
+    0: /rules 6
 betaworldHasAnEconomy:
-    0: /rules 8
+    0: /rules 7
 takeCitizenshipOath:
-    0: /rules 9
+    0: /rules 8
 immigratevisitor:
     0: console /manuadd !1p Citizen
 

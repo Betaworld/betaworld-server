@@ -8,54 +8,46 @@ Page_1:
   Title: '&aWelcome To Betaworld!'
   Text:
   - ''
-  - '&bThis is our automated immigration system. You must fully complete it before you are granted Citizenship.'
+  - '&bThis is our automated immigration system. Each page in this system will contain the most important information about 7 fundamental aspects of Betaworld life.'
   - ''
-  - '&3Mature individuals take time to read and understand the laws of a new world, and we only accept mature individuals as Citizens.'
+  - '&3There are only 8 pages, so please take your time to read each carefully before moving on to the next. At the end, you will be immigrated as a full Citizen of Betaworld.'
   - ''
-  - '&fIf you agree to read and understand our rules, type /maturePlayersOnly'
+  - '&fIf you wish to continue, type /beginImmigration'
   - ''
 
 Page_2:
-  Title: '&aPolitics'
+  Title: '&aMerconia'
   Text:
   - ''
-  - '&bOur world, and everybody in it are bound to the Betaworld Constitution; a clear and concise definition of our rights and law.'
+  - '&bEverybody that arrives on Betaworld, begins in Merconia; a town located at the center of the world which acts as capitol of Betaworld.'
   - ''
-  - '&cAll Citizens are required to read and understand this Constitution. It is located here: &fhttp://LifeOnBetaworld.com/constitution'
+  - '&cIn order to find a place to settle, you will need to travel at least 400 blocks away from Merconia to find the wilderness, which continues on for 120,000 blocks in every direction past that.'
   - ''
-  - '&fAfter you read the Constitution, type /betaworldGlobalGovernment to move on'
+  - '&fTo continue, type /betaworldCapitolMerconia'
   - ''
 Page_3:
-  Title: '&aThe Official Betaworld Guide'
+  Title: '&aA Dangerous World'
   Text:
   - ''
-  - '&bEvery single day, officials on the server are asked questions that can be answered by simply reading our online guide located at http://LifeOnBetaworld.com/guide. So, what exactly can you find in the guide?'
+  - '&bBetaworld is full of very nasty monsters. They will kill you if given the chance, so don''t give then the chance!'
   - ''
-  - '&c* &3A complete breakdown of all Betaworld laws and bylaws.'
-  - '&c* &3Command guides for starting towns, nations, and for creating NPC guards.'
-  - '&c* &3Full chart and explanation of each position in government'
+  - '&c* &3Obtain armor and weapons before you venture out from Merconia!'
+  - '&c* &3Beware of sudden falls and cliffs!'
+  - '&c* &3Bring FOOD!'
   - ''
-  - '&fThe command to move on is located at the end of the "Economy" section of the guide.'
+  - '&fTo continue, type /iShouldGetSomeArmor'
   - ''
 Page_4:
-  Title: '&aOur Mobs &lHATE YOU.'
-  Text:
-  - ''
-  - '&cWe kid you not; our mobs are vicious killing machines of death and destruction. You will die out there over and over if you do not first acquire armor and a weapon. They are set on the hardest difficulty, and if there was a way to make them even harder; we would probably say yes to that as well.'
-  - ''
-  - '&fIf you understand that our mobs are set to the most difficult setting, and that they will try to make you dead, type /mobsHateMe to move on to the next page.'
-  - ''
-Page_5:
   Title: '&aWe Have a Kick-Ass Real-Time Map Of The Entire World'
   Text:
   - ''
-  - '&bOur map is powered by dynmap, a more-or-less-real-time online map application. It shows all of the known world, and lets you zoom-in and scroll in a way similar to Google Maps.'
+  - '&bOur map is powered by dynmap; a real-time online map application. It shows all of the known world, and lets you zoom-in and scroll in a way similar to Google Maps.'
   - ''
   - '&3You can find the map by going to http://map.LifeOnBetaworld.com. The site works on all smartphones and tablets as well, so you can chat with your friends even when you''re away from the computer.'
   - ''
-  - '&fIf you understand that Betaworld has an awesome map that you should become familiar with, type /betaworldHasAMap to move on.'
+  - '&fIf you wish to continue, type /websiteMap'
   - ''
-Page_6:
+Page_5:
   Title: '&aTowns & Nations'
   Text:
   - ''
@@ -63,9 +55,9 @@ Page_6:
   - ''
   - '&3When you''re ready to start a Town, you can learn the commands here: &fhttp://lifeonbetaworld.com/guide/commands/towny/'
   - ''
-  - '&fIf you understand that the only way to legally claim land on Betaworld is to start or join a Town, type /townsClaimLand to move on.'
+  - '&fIf you wish to continue, type /townsClaimLand'
   - ''
-Page_7:
+Page_6:
   Title: '&aEconomy: Create Your Own Stores!'
   Text:
   - ''
@@ -73,9 +65,9 @@ Page_7:
   - ''
   - '&3There are stores at the spawn town of Merconia that you can spend your money at, or sell items to for more money. You may also open your own store when you''ve accumulated some wealth by following our guide on shops.'
   - ''
-  - '&cIf you understand that we have a bustling economy, type /betaworldHasAnEconomy.'
+  - '&cIf you wish to continue, type /betaworldHasAnEconomy'
   - ''
-Page_8:
+Page_7:
   Title: '&aTake the Official Oath of Betaworld Citizenship'
   Text:
   - ''
@@ -83,7 +75,7 @@ Page_8:
   - ''
   - '&cType /takeCitizenshipOath to complete your Citizenship.'
   - ''  
-Page_9:
+Page_8:
   Title: '&aWelcome To Betaworld, Citizen'
   Text:
   - ''
