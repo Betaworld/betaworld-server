@@ -1,4 +1,4 @@
-towns=Merconia,Triss,Haven,Velious,Icewyn,Volirun,
+towns=Merconia,Triss,Haven,Heretic,Icewyn,Volirun,Orion,
 
 pvp=true
 forcepvp=false

@@ -11,22 +11,22 @@
 # Forums: http://www.spigotmc.org/forum/
 
 config-version: 3
-commands:
-  spam-exclusions:
-  - /skill
-  log: true
-  tab-complete: true
 settings:
   log-filters:
   - ^(.*)(/login)(.*)$
+  prevent-proxies: false
   bungeecord-addresses:
   - 127.0.0.1
   bungeecord: true
   timeout-time: 60
   restart-on-crash: true
   restart-script: ./start.sh
-  prevent-proxies: false
   netty-threads: 3
+commands:
+  spam-exclusions:
+  - /skill
+  log: true
+  tab-complete: true
 listeners:
 - port: default
   host: default

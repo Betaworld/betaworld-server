@@ -30,3 +30,4 @@ plugins/Shop/Data/
 dynmap/web/tiles/*
 dynmap/web/tiles/_markers_/*
 dynmap/*.pending
+dynmap/ids-by-ip.txt

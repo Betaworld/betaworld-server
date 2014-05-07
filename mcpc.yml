@@ -70,31 +70,32 @@ settings:
   entity-max-speed: '100'
   check-entity-bounding-boxes: false
   load-chunk-on-request: true
+  fml-missing-message: You do not have FML installed, you cannot connect to this server
   fml-missing-mods-message: The server requires mods that are absent or out of date on your client
 world-settings:
   default:
     infinite-water-source: true
     flowing-lava-decay: false
     despawn-immediate: true
-    worldgen-wildcaves3-WorldGenWildCaves: true
-    worldgen-ExtrabiomesXL-LeafPileGenerator: true
-    worldgen-ATG-ATGWorldGenRocks: true
-    worldgen-ExtrabiomesXL-VanillaFloraGenerator: true
-    worldgen-GalacticraftCore-GCCoreOverworldGenerator: true
+    worldgen-wildcaves3-EventManager: true
     worldgen-ExtrabiomesXL-EelGrassGenerator: true
+    worldgen-arsmagica2-AM2WorldDecorator: true
+    worldgen-ExtrabiomesXL-QuicksandGenerator: true
+    worldgen-ExtrabiomesXL-VineGenerator: true
+    worldgen-AtomicScience-OreGenerator: true
+    worldgen-ExtrabiomesXL-VanillaFloraGenerator: true
+    worldgen-ExtrabiomesXL-LeafPileGenerator: true
+    worldgen-TConstruct-SlimeIslandGen: true
+    worldgen-GalacticraftCore-GCCoreOverworldGenerator: true
     worldgen-ExtrabiomesXL-CatTailGenerator: true
     worldgen-ExtrabiomesXL-OilGenerator: true
-    worldgen-wildcaves3-EventManager: true
-    worldgen-arsmagica2-AM2WorldDecorator: true
-    worldgen-AtomicScience-OreGenerator: true
-    worldgen-ATG-ATGWorldGenCliffs: true
+    worldgen-ATG-ATGWorldGenRocks: true
     worldgen-ATG-ATGWorldGenHighAltitudePockets: true
-    worldgen-ExtrabiomesXL-LegendOakGenerator: true
-    worldgen-TConstruct-TBaseWorldGenerator: true
     worldgen-ExtrabiomesXL-FlowerGenerator: true
-    worldgen-ExtrabiomesXL-VineGenerator: true
-    worldgen-TConstruct-SlimeIslandGen: true
-    worldgen-ExtrabiomesXL-QuicksandGenerator: true
+    worldgen-TConstruct-TBaseWorldGenerator: true
+    worldgen-wildcaves3-WorldGenWildCaves: true
+    worldgen-ATG-ATGWorldGenCliffs: true
+    worldgen-ExtrabiomesXL-LegendOakGenerator: true
     worldgen-CalclaviaCore-OreGenerator: true
     worldgen-Thaumcraft-ThaumcraftWorldGenerator: true
     worldgen-millenaire-WorldGenVillage: true
