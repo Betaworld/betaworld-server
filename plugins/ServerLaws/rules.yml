@@ -31,7 +31,7 @@ Page_3:
   - ''
   - '&bBetaworld is extremely dangerous!'
   - ''
-  - '&c* &3Obtain armor and weapons in Merconia!'
+  - '&c* &3Obtain armor and weapons in Merconia, first!'
   - '&c* &3Beware of sudden falls and cliffs!'
   - '&c* &3Bring FOOD!'
   - ''
@@ -41,12 +41,14 @@ Page_4:
   Title: '&aWe Have An Awesome Real-Time Map Of The Entire Known World'
   Text:
   - ''
-  - '&3The world map is located at &chttp://map.LifeOnBetaworld.com. &3The site works on all smartphones and tablets as well, so you can chat with your friends even when you''re away from the computer.'
+  - '&3The world map is located at &chttp://map.LifeOnBetaworld.com'
+  - ''
+  - '&3The site works on all smartphones and tablets as well, so you can chat with your friends even when you''re away from the computer.'
   - ''
   - '&fTo continue, type /websiteMap'
   - ''
 Page_5:
-  Title: '&aTowns & Nations'
+  Title: '&aTowns and Nations'
   Text:
   - ''
   - '&bTowns are founded by players like you, and eventually grow to become Nations of many towns.'
